@@ -1,0 +1,18 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Русский to English</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<p padding>Input the Russian word on the left that matches the translated English word on the right.</p>
+	<ion-list>
+		<div ion-item *ngFor="let word of words">
+				{{word.russian}}
+				<div item-right>{{word.english}}</div>
+		</div>
+	</ion-list>
+</ion-content>

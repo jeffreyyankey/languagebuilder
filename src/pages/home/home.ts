@@ -13,7 +13,11 @@ export class HomePage {
 	constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
 	itemTapped(event, page) {
-		console.log('page',page);
-		this.navCtrl.push(RussianPage);
+		if (page === 'english') {
+			this.navCtrl.push(EnglishPage);
+		}
+		if (page === 'russian') {
+			this.navCtrl.push(RussianPage);
+		}
 	}
 }

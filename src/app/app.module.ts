@@ -1,37 +1,36 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 import { MyApp } from './app.component';
-import { Page1 } from '../pages/page1/page1';
-import { Page2 } from '../pages/page2/page2';
 import { HomePage } from '../pages/home/home';
 import { EnglishPage } from '../pages/english/english';
 import { RussianPage } from '../pages/russian/russian';
 
-const cloudSettings: CloudSettings = {
-	'core': {
-		'app_id': '1999c77b'
-	}
+// Import the AF2 Module
+import { AngularFireModule } from 'angularfire2';
+
+// AF2 Settings
+export const firebaseConfig = {
+	apiKey: "AIzaSyDOpQrgN_VGcc07rKHWhJlRUY3Zx2JTPp8",
+	authDomain: "languagebuilder-87d81.firebaseapp.com",
+	databaseURL: "https://languagebuilder-87d81.firebaseio.com",
+	storageBucket: "languagebuilder-87d81.appspot.com",
+	messagingSenderId: "345834922127"
 };
 
 @NgModule({
 	declarations: [
 		MyApp,
-		Page1,
-		Page2,
 		HomePage,
 		EnglishPage,
 		RussianPage
 	],
 	imports: [
 		IonicModule.forRoot(MyApp),
-		CloudModule.forRoot(cloudSettings)
+		AngularFireModule.initializeApp(firebaseConfig)
 	],
 	bootstrap: [IonicApp],
 	entryComponents: [
 		MyApp,
-		Page1,
-		Page2,
 		HomePage,
 		EnglishPage,
 		RussianPage

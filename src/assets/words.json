@@ -1,0 +1,2322 @@
+{
+	"1": {
+		"English": "who",
+		"Russian": "кто",
+		"Unit": 2,
+		"Topic": "interrogative",
+		"Gender": "",
+		"Case": ""
+	},
+	"2": {
+		"English": "Anna",
+		"Russian": "А́нна",
+		"Unit": 2,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"3": {
+		"English": "Vera",
+		"Russian": "Ве́ра",
+		"Unit": 2,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"4": {
+		"English": "Evan",
+		"Russian": "Ива́н",
+		"Unit": 2,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"5": {
+		"English": "professor",
+		"Russian": "профе́ссор",
+		"Unit": 2,
+		"Topic": "person",
+		"Gender": "",
+		"Case": ""
+	},
+	"6": {
+		"English": "student",
+		"Russian": "студе́нт",
+		"Unit": 2,
+		"Topic": "person",
+		"Gender": "m",
+		"Case": ""
+	},
+	"7": {
+		"English": "student",
+		"Russian": "студе́нтка",
+		"Unit": 2,
+		"Topic": "person",
+		"Gender": "f",
+		"Case": ""
+	},
+	"8": {
+		"English": "students",
+		"Russian": "студе́нты",
+		"Unit": 2,
+		"Topic": "person",
+		"Gender": "",
+		"Case": ""
+	},
+	"9": {
+		"English": "about",
+		"Russian": "о",
+		"Unit": 2,
+		"Topic": "preposition",
+		"Gender": "",
+		"Case": "prep"
+	},
+	"10": {
+		"English": "against",
+		"Russian": "о",
+		"Unit": 2,
+		"Topic": "preposition",
+		"Gender": "",
+		"Case": "acc"
+	},
+	"11": {
+		"English": "oh",
+		"Russian": "о",
+		"Unit": 2,
+		"Topic": "exclamation",
+		"Gender": "",
+		"Case": ""
+	},
+	"12": {
+		"English": "he",
+		"Russian": "он",
+		"Unit": 2,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"13": {
+		"English": "she",
+		"Russian": "она́",
+		"Unit": 2,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"14": {
+		"English": "you (informal)",
+		"Russian": "ты",
+		"Unit": 2,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"15": {
+		"English": "this",
+		"Russian": "э́то",
+		"Unit": 2,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"16": {
+		"English": "I",
+		"Russian": "я",
+		"Unit": 2,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"17": {
+		"English": "Who is this?",
+		"Russian": "кто э́то?",
+		"Unit": 2,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"18": {
+		"English": "O no!",
+		"Russian": "О нет!",
+		"Unit": 2,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"19": {
+		"English": "yes",
+		"Russian": "да",
+		"Unit": 2,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"20": {
+		"English": "and (inclusive)",
+		"Russian": "и",
+		"Unit": 2,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"21": {
+		"English": "or",
+		"Russian": "или",
+		"Unit": 2,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"22": {
+		"English": "not",
+		"Russian": "не",
+		"Unit": 2,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"23": {
+		"English": "no",
+		"Russian": "нет",
+		"Unit": 2,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"24": {
+		"English": "also",
+		"Russian": "то́же",
+		"Unit": 2,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"25": {
+		"English": "magazine",
+		"Russian": "журна́л",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"26": {
+		"English": "map",
+		"Russian": "ка́рта",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"27": {
+		"English": "picture",
+		"Russian": "карти́на",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"28": {
+		"English": "class",
+		"Russian": "класс",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"29": {
+		"English": "book",
+		"Russian": "кни́га",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"30": {
+		"English": "table",
+		"Russian": "стол",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"31": {
+		"English": "chair",
+		"Russian": "стул",
+		"Unit": 3,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"32": {
+		"English": "where",
+		"Russian": "где",
+		"Unit": 3,
+		"Topic": "interrogative",
+		"Gender": "",
+		"Case": ""
+	},
+	"33": {
+		"English": "what",
+		"Russian": "что",
+		"Unit": 3,
+		"Topic": "interrogative",
+		"Gender": "",
+		"Case": ""
+	},
+	"34": {
+		"English": "there",
+		"Russian": "там",
+		"Unit": 3,
+		"Topic": "location",
+		"Gender": "",
+		"Case": ""
+	},
+	"35": {
+		"English": "here",
+		"Russian": "тут",
+		"Unit": 3,
+		"Topic": "location",
+		"Gender": "",
+		"Case": ""
+	},
+	"36": {
+		"English": "Volgograd",
+		"Russian": "Волгогра́д",
+		"Unit": 3,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"37": {
+		"English": "Moscow",
+		"Russian": "Москва́",
+		"Unit": 3,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"38": {
+		"English": "USSR",
+		"Russian": "СССР",
+		"Unit": 3,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"39": {
+		"English": "on the table",
+		"Russian": "на столе́",
+		"Unit": 3,
+		"Topic": "phrase",
+		"Gender": "",
+		"Case": ""
+	},
+	"40": {
+		"English": "in",
+		"Russian": "в",
+		"Unit": 3,
+		"Topic": "prep",
+		"Gender": "",
+		"Case": ""
+	},
+	"41": {
+		"English": "on, here (coll), take it",
+		"Russian": "на",
+		"Unit": 3,
+		"Topic": "prep",
+		"Gender": "",
+		"Case": ""
+	},
+	"42": {
+		"English": "you (plural, formal)",
+		"Russian": "вы",
+		"Unit": 3,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"43": {
+		"English": "we",
+		"Russian": "мы",
+		"Unit": 3,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"44": {
+		"English": "they",
+		"Russian": "они́",
+		"Unit": 3,
+		"Topic": "pronoun",
+		"Gender": "",
+		"Case": ""
+	},
+	"45": {
+		"English": "No, this is not a table, but a chair.",
+		"Russian": "Нет, э́то не стол, а стул.",
+		"Unit": 3,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"46": {
+		"English": "and (contrast), but (negative contrast)",
+		"Russian": "а",
+		"Unit": 3,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"47": {
+		"English": "well, healthy",
+		"Russian": "здоро́в",
+		"Unit": 4,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"48": {
+		"English": "well, healthy",
+		"Russian": "здоро́ва",
+		"Unit": 4,
+		"Topic": "adj",
+		"Gender": "f",
+		"Case": ""
+	},
+	"49": {
+		"English": "not well, sick",
+		"Russian": "не здоро́ва",
+		"Unit": 4,
+		"Topic": "adj",
+		"Gender": "",
+		"Case": ""
+	},
+	"50": {
+		"English": "good",
+		"Russian": "хорошо́",
+		"Unit": 4,
+		"Topic": "adj",
+		"Gender": "",
+		"Case": ""
+	},
+	"51": {
+		"English": "at home",
+		"Russian": "до́ма",
+		"Unit": 4,
+		"Topic": "adv",
+		"Gender": "",
+		"Case": ""
+	},
+	"52": {
+		"English": "wall",
+		"Russian": "стена́",
+		"Unit": 4,
+		"Topic": "building",
+		"Gender": "f",
+		"Case": ""
+	},
+	"53": {
+		"English": "newspaper",
+		"Russian": "газе́та",
+		"Unit": 4,
+		"Topic": "classroom",
+		"Gender": "f",
+		"Case": ""
+	},
+	"54": {
+		"English": "blackboard",
+		"Russian": "доска́",
+		"Unit": 4,
+		"Topic": "classroom",
+		"Gender": "f",
+		"Case": ""
+	},
+	"55": {
+		"English": "pencil",
+		"Russian": "каранда́ш",
+		"Unit": 4,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"56": {
+		"English": "book (acc)",
+		"Russian": "кни́гу",
+		"Unit": 4,
+		"Topic": "classroom",
+		"Gender": "f",
+		"Case": ""
+	},
+	"57": {
+		"English": "pen",
+		"Russian": "перо́",
+		"Unit": 4,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"58": {
+		"English": "school",
+		"Russian": "шко́ла",
+		"Unit": 4,
+		"Topic": "classroom",
+		"Gender": "f",
+		"Case": ""
+	},
+	"59": {
+		"English": "Peter",
+		"Russian": "Пётр",
+		"Unit": 4,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"60": {
+		"English": "Petrov",
+		"Russian": "Петро́в",
+		"Unit": 4,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"61": {
+		"English": "Mr.",
+		"Russian": "господи́н",
+		"Unit": 4,
+		"Topic": "person",
+		"Gender": "m",
+		"Case": ""
+	},
+	"62": {
+		"English": "What else?",
+		"Russian": "что ешё?",
+		"Unit": 4,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"63": {
+		"English": "That is very good",
+		"Russian": "э́то о́чень хорошо́!",
+		"Unit": 4,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"64": {
+		"English": "today",
+		"Russian": "сево́дня",
+		"Unit": 4,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"65": {
+		"English": "reads",
+		"Russian": "чта́ет",
+		"Unit": 4,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"66": {
+		"English": "here is, here are",
+		"Russian": "вот",
+		"Unit": 4,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"67": {
+		"English": "still, more",
+		"Russian": "ешё",
+		"Unit": 4,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"68": {
+		"English": "a lot",
+		"Russian": "мно́го",
+		"Unit": 4,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"69": {
+		"English": "but",
+		"Russian": "но",
+		"Unit": 4,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"70": {
+		"English": "very",
+		"Russian": "о́чень",
+		"Unit": 4,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"71": {
+		"English": "beautiful",
+		"Russian": "краси́вая",
+		"Unit": 5,
+		"Topic": "adj",
+		"Gender": "f",
+		"Case": ""
+	},
+	"72": {
+		"English": "my",
+		"Russian": "мой",
+		"Unit": 5,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"73": {
+		"English": "my",
+		"Russian": "моя́",
+		"Unit": 5,
+		"Topic": "adj",
+		"Gender": "f",
+		"Case": ""
+	},
+	"74": {
+		"English": "new",
+		"Russian": "но́вое",
+		"Unit": 5,
+		"Topic": "adj",
+		"Gender": "n",
+		"Case": ""
+	},
+	"75": {
+		"English": "new",
+		"Russian": "но́вый",
+		"Unit": 5,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"76": {
+		"English": "rapidly, fast",
+		"Russian": "быстро",
+		"Unit": 5,
+		"Topic": "adv",
+		"Gender": "",
+		"Case": ""
+	},
+	"77": {
+		"English": "slowly",
+		"Russian": "ме́дленно",
+		"Unit": 5,
+		"Topic": "adv",
+		"Gender": "",
+		"Case": ""
+	},
+	"78": {
+		"English": "badly, poorly",
+		"Russian": "пло́хо",
+		"Unit": 5,
+		"Topic": "adv",
+		"Gender": "",
+		"Case": ""
+	},
+	"79": {
+		"English": "Russian, in Russian",
+		"Russian": "по-ру́сски",
+		"Unit": 5,
+		"Topic": "adv",
+		"Gender": "",
+		"Case": ""
+	},
+	"80": {
+		"English": "already",
+		"Russian": "уже́",
+		"Unit": 5,
+		"Topic": "adv",
+		"Gender": "",
+		"Case": ""
+	},
+	"81": {
+		"English": "door",
+		"Russian": "дверь",
+		"Unit": 5,
+		"Topic": "building",
+		"Gender": "f",
+		"Case": ""
+	},
+	"82": {
+		"English": "room",
+		"Russian": "ко́мната",
+		"Unit": 5,
+		"Topic": "building",
+		"Gender": "f",
+		"Case": ""
+	},
+	"83": {
+		"English": "window",
+		"Russian": "окно́",
+		"Unit": 5,
+		"Topic": "building",
+		"Gender": "n",
+		"Case": ""
+	},
+	"84": {
+		"English": "paper",
+		"Russian": "бума́га",
+		"Unit": 5,
+		"Topic": "classroom",
+		"Gender": "f",
+		"Case": ""
+	},
+	"85": {
+		"English": "lamp",
+		"Russian": "ла́мпа",
+		"Unit": 5,
+		"Topic": "classroom",
+		"Gender": "f",
+		"Case": ""
+	},
+	"86": {
+		"English": "chalk",
+		"Russian": "мел",
+		"Unit": 5,
+		"Topic": "classroom",
+		"Gender": "",
+		"Case": ""
+	},
+	"87": {
+		"English": "with chalk",
+		"Russian": "ме́лом",
+		"Unit": 5,
+		"Topic": "instrumental phrase",
+		"Gender": "",
+		"Case": ""
+	},
+	"88": {
+		"English": "how",
+		"Russian": "как",
+		"Unit": 5,
+		"Topic": "interrogative",
+		"Gender": "",
+		"Case": ""
+	},
+	"89": {
+		"English": "with what",
+		"Russian": "чем",
+		"Unit": 5,
+		"Topic": "interrogative",
+		"Gender": "",
+		"Case": ""
+	},
+	"90": {
+		"English": "my",
+		"Russian": "моё",
+		"Unit": 5,
+		"Topic": "possessive adj",
+		"Gender": "n",
+		"Case": ""
+	},
+	"91": {
+		"English": "yours",
+		"Russian": "ваш",
+		"Unit": 5,
+		"Topic": "possessive pronoun",
+		"Gender": "m",
+		"Case": ""
+	},
+	"92": {
+		"English": "yours",
+		"Russian": "ва́ша",
+		"Unit": 5,
+		"Topic": "possessive pronoun",
+		"Gender": "f",
+		"Case": ""
+	},
+	"93": {
+		"English": "yours",
+		"Russian": "ва́ше",
+		"Unit": 5,
+		"Topic": "possessive pronoun",
+		"Gender": "n",
+		"Case": ""
+	},
+	"94": {
+		"English": "always",
+		"Russian": "всегда́",
+		"Unit": 5,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"95": {
+		"English": "English, in English",
+		"Russian": "по-англи́йски",
+		"Unit": 5,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"96": {
+		"English": "only",
+		"Russian": "то́лько",
+		"Unit": 5,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"97": {
+		"English": "bad, poor",
+		"Russian": "плоха́я",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "f",
+		"Case": ""
+	},
+	"98": {
+		"English": "bad, poor",
+		"Russian": "плохо́е",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "n",
+		"Case": ""
+	},
+	"99": {
+		"English": "bad, poor",
+		"Russian": "плохо́й",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"100": {
+		"English": "Russian",
+		"Russian": "русский",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"101": {
+		"English": "good",
+		"Russian": "хоро́шaя",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "f",
+		"Case": ""
+	},
+	"102": {
+		"English": "good",
+		"Russian": "хоро́шая",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "f",
+		"Case": ""
+	},
+	"103": {
+		"English": "good",
+		"Russian": "хоро́шее",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "n",
+		"Case": ""
+	},
+	"104": {
+		"English": "good",
+		"Russian": "хоро́ший",
+		"Unit": 7,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"105": {
+		"English": "why",
+		"Russian": "почему́",
+		"Unit": 7,
+		"Topic": "interrogative",
+		"Gender": "",
+		"Case": ""
+	},
+	"106": {
+		"English": "USA",
+		"Russian": "Аме́рика",
+		"Unit": 7,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"107": {
+		"English": "Miss, Mrs",
+		"Russian": "госпожа́",
+		"Unit": 7,
+		"Topic": "person",
+		"Gender": "f",
+		"Case": ""
+	},
+	"108": {
+		"English": "pupil",
+		"Russian": "учени́к",
+		"Unit": 7,
+		"Topic": "person",
+		"Gender": "m",
+		"Case": ""
+	},
+	"109": {
+		"English": "pupil",
+		"Russian": "учени́ца",
+		"Unit": 7,
+		"Topic": "person",
+		"Gender": "f",
+		"Case": ""
+	},
+	"110": {
+		"English": "teacher",
+		"Russian": "учи́тель",
+		"Unit": 7,
+		"Topic": "person",
+		"Gender": "m",
+		"Case": ""
+	},
+	"111": {
+		"English": "teacher",
+		"Russian": "учи́тельница",
+		"Unit": 7,
+		"Topic": "person",
+		"Gender": "f",
+		"Case": ""
+	},
+	"112": {
+		"English": "near",
+		"Russian": "о́коло",
+		"Unit": 7,
+		"Topic": "prep",
+		"Gender": "",
+		"Case": "gen"
+	},
+	"113": {
+		"English": "I do not yet speak",
+		"Russian": "ешё не говорю́",
+		"Unit": 7,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"114": {
+		"English": "he reads nothing",
+		"Russian": "нечего́ не чита́ет",
+		"Unit": 7,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"115": {
+		"English": "He has been only one year in the USA",
+		"Russian": "он то́лько оди́н год в Аме́рике",
+		"Unit": 7,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"116": {
+		"English": "he only talks and talks",
+		"Russian": "то́лько говори́т и говори́т",
+		"Unit": 7,
+		"Topic": "sentence",
+		"Gender": "",
+		"Case": ""
+	},
+	"117": {
+		"English": "Ivanova",
+		"Russian": "Ивано́ва",
+		"Unit": 7,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"118": {
+		"English": "year",
+		"Russian": "год",
+		"Unit": 7,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"119": {
+		"English": "now",
+		"Russian": "тепе́рь",
+		"Unit": 7,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"120": {
+		"English": "little (not much)",
+		"Russian": "ма́ло",
+		"Unit": 7,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"121": {
+		"English": "nothing",
+		"Russian": "ничего́",
+		"Unit": 7,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"122": {
+		"English": "because",
+		"Russian": "потому́ что",
+		"Unit": 7,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"123": {
+		"English": "also, in addition",
+		"Russian": "та́кже",
+		"Unit": 7,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"124": {
+		"English": "Boris",
+		"Russian": "Борис",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"125": {
+		"English": "brother",
+		"Russian": "брат",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"126": {
+		"English": "all, everything",
+		"Russian": "весь",
+		"Unit": 8,
+		"Topic": "adj",
+		"Gender": "",
+		"Case": ""
+	},
+	"127": {
+		"English": "all, everything",
+		"Russian": "весь день",
+		"Unit": 8,
+		"Topic": "phrase",
+		"Gender": "",
+		"Case": ""
+	},
+	"128": {
+		"English": "all, everything",
+		"Russian": "вечером",
+		"Unit": 8,
+		"Topic": "adj",
+		"Gender": "",
+		"Case": ""
+	},
+	"129": {
+		"English": "all, everything",
+		"Russian": "всё",
+		"Unit": 8,
+		"Topic": "adj",
+		"Gender": "",
+		"Case": ""
+	},
+	"130": {
+		"English": "all, everything",
+		"Russian": "вся",
+		"Unit": 8,
+		"Topic": "adj",
+		"Gender": "",
+		"Case": ""
+	},
+	"131": {
+		"English": "to give",
+		"Russian": "давать",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"132": {
+		"English": "to do",
+		"Russian": "делать",
+		"Unit": 8,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"133": {
+		"English": "day",
+		"Russian": "день",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"134": {
+		"English": "divan (couch)",
+		"Russian": "диван",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"135": {
+		"English": "doctor",
+		"Russian": "доктор",
+		"Unit": 8,
+		"Topic": "person",
+		"Gender": "",
+		"Case": ""
+	},
+	"136": {
+		"English": "to play",
+		"Russian": "играть",
+		"Unit": 8,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"137": {
+		"English": "to love",
+		"Russian": "любить",
+		"Unit": 8,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"138": {
+		"English": "small",
+		"Russian": "маленькая",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"139": {
+		"English": "small",
+		"Russian": "маленький",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"140": {
+		"English": "small",
+		"Russian": "маленькое",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"141": {
+		"English": "mother",
+		"Russian": "мать",
+		"Unit": 8,
+		"Topic": "person",
+		"Gender": "",
+		"Case": ""
+	},
+	"142": {
+		"English": "Masha",
+		"Russian": "Маша",
+		"Unit": 8,
+		"Topic": "name",
+		"Gender": "",
+		"Case": ""
+	},
+	"143": {
+		"English": "our",
+		"Russian": "наш",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"144": {
+		"English": "our",
+		"Russian": "наша",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"145": {
+		"English": "our",
+		"Russian": "наше",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"146": {
+		"English": "to rest",
+		"Russian": "отдыхать",
+		"Unit": 8,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"147": {
+		"English": "father",
+		"Russian": "отец",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"148": {
+		"English": "with",
+		"Russian": "с",
+		"Unit": 8,
+		"Topic": "preposition",
+		"Gender": "",
+		"Case": ""
+	},
+	"149": {
+		"English": "with the dog",
+		"Russian": "с собака",
+		"Unit": 8,
+		"Topic": "phrase",
+		"Gender": "",
+		"Case": ""
+	},
+	"150": {
+		"English": "family",
+		"Russian": "семья",
+		"Unit": 8,
+		"Topic": "person",
+		"Gender": "",
+		"Case": ""
+	},
+	"151": {
+		"English": "sister",
+		"Russian": "сестра",
+		"Unit": 8,
+		"Topic": "person",
+		"Gender": "",
+		"Case": ""
+	},
+	"152": {
+		"English": "to sit",
+		"Russian": "сидеть",
+		"Unit": 8,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"153": {
+		"English": "dog",
+		"Russian": "соба́ка",
+		"Unit": 8,
+		"Topic": "animal",
+		"Gender": "",
+		"Case": ""
+	},
+	"154": {
+		"English": "to the dog",
+		"Russian": "соба́ке",
+		"Unit": 8,
+		"Topic": "phrase",
+		"Gender": "",
+		"Case": "dative"
+	},
+	"155": {
+		"English": "in the morning",
+		"Russian": "утром",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"156": {
+		"English": "chocalate",
+		"Russian": "шокалат",
+		"Unit": 8,
+		"Topic": "food",
+		"Gender": "",
+		"Case": ""
+	},
+	"157": {
+		"English": "chocalates",
+		"Russian": "шоколад",
+		"Unit": 8,
+		"Topic": "food",
+		"Gender": "",
+		"Case": ""
+	},
+	"158": {
+		"English": "I don't like to work",
+		"Russian": "я не люблю работать",
+		"Unit": 8,
+		"Topic": "phrase",
+		"Gender": "",
+		"Case": ""
+	},
+	"159": {
+		"English": "soft",
+		"Russian": "мякий",
+		"Unit": 8,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"160": {
+		"English": "hard",
+		"Russian": "твёрдый",
+		"Unit": 8,
+		"Topic": "adj",
+		"Gender": "m",
+		"Case": ""
+	},
+	"161": {
+		"English": "to live, to dwell",
+		"Russian": "жить",
+		"Unit": 8,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"162": {
+		"English": "village, country",
+		"Russian": "дере́вня",
+		"Unit": 8,
+		"Topic": "place",
+		"Gender": "",
+		"Case": ""
+	},
+	"163": {
+		"English": "town",
+		"Russian": "го́род",
+		"Unit": 8,
+		"Topic": "place",
+		"Gender": "",
+		"Case": ""
+	},
+	"164": {
+		"English": "quiet",
+		"Russian": "ти́хо",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"165": {
+		"English": "after",
+		"Russian": "по́сле",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": "with genitive"
+	},
+	"166": {
+		"English": "work",
+		"Russian": "рабо́та",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"167": {
+		"English": "store",
+		"Russian": "магази́н",
+		"Unit": 8,
+		"Topic": "place",
+		"Gender": "",
+		"Case": ""
+	},
+	"168": {
+		"English": "when",
+		"Russian": "когда́",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"169": {
+		"English": "nowhere",
+		"Russian": "нигде́",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"170": {
+		"English": "she works nowhere, she does not work anywhere",
+		"Russian": "она́ нигде́ не рабо́тает",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"171": {
+		"English": "never",
+		"Russian": "никогда́",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"172": {
+		"English": "to stay home",
+		"Russian": "сиде́ть до́ма",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"173": {
+		"English": "(emphatic) then, but",
+		"Russian": "же",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"174": {
+		"English": "what then",
+		"Russian": "что же",
+		"Unit": 8,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"175": {
+		"English": "to prefer",
+		"Russian": "предпочита́ть",
+		"Unit": 9,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"176": {
+		"English": "by, at",
+		"Russian": "у",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"177": {
+		"English": "I have (lit. by me)",
+		"Russian": "у меня́",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"178": {
+		"English": "I have, I do have (lit. by me there is)",
+		"Russian": "у меня́ есть",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"179": {
+		"English": "unattractive, ugly",
+		"Russian": "некраси́вый, -ая, -ое",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"180": {
+		"English": "floor",
+		"Russian": "пол",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"181": {
+		"English": "ceiling",
+		"Russian": "потоло́к",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"182": {
+		"English": "old",
+		"Russian": "ста́рый, -ая, -ое",
+		"Unit": 9,
+		"Topic": "adj",
+		"Gender": "m, f, n",
+		"Case": ""
+	},
+	"183": {
+		"English": "big",
+		"Russian": "большо́й, больша́я, большо́е",
+		"Unit": 9,
+		"Topic": "adj",
+		"Gender": "m, f, n",
+		"Case": ""
+	},
+	"184": {
+		"English": "two",
+		"Russian": "два",
+		"Unit": 9,
+		"Topic": "number",
+		"Gender": "m, n",
+		"Case": ""
+	},
+	"185": {
+		"English": "armchair",
+		"Russian": "кре́сло",
+		"Unit": 9,
+		"Topic": "furniture",
+		"Gender": "n",
+		"Case": ""
+	},
+	"186": {
+		"English": "three",
+		"Russian": "три",
+		"Unit": 9,
+		"Topic": "number",
+		"Gender": "m, f, n",
+		"Case": ""
+	},
+	"187": {
+		"English": "on the floor",
+		"Russian": "на полу́",
+		"Unit": 9,
+		"Topic": "phrase",
+		"Gender": "",
+		"Case": "prep"
+	},
+	"188": {
+		"English": "to want, wish",
+		"Russian": "хоте́ть",
+		"Unit": 9,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"189": {
+		"English": "father",
+		"Russian": "оте́ц",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"190": {
+		"English": "father has",
+		"Russian": "у отца́",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"191": {
+		"English": "house",
+		"Russian": "дом",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"192": {
+		"English": "to be able to",
+		"Russian": "мочь",
+		"Unit": 9,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"193": {
+		"English": "Katya",
+		"Russian": "Ка́тя",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"194": {
+		"English": "her",
+		"Russian": "её",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"195": {
+		"English": "husband",
+		"Russian": "муж",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"196": {
+		"English": "Petya",
+		"Russian": "Пе́тя",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"197": {
+		"English": "Fedya",
+		"Russian": "Фе́дя",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"198": {
+		"English": "his",
+		"Russian": "его́",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"199": {
+		"English": "wife",
+		"Russian": "жена́",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "f",
+		"Case": ""
+	},
+	"200": {
+		"English": "Nadya",
+		"Russian": "На́дя",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"201": {
+		"English": "uncle",
+		"Russian": "дя́дя",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "m",
+		"Case": ""
+	},
+	"202": {
+		"English": "Vanya",
+		"Russian": "Ва́ня",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"203": {
+		"English": "aunt",
+		"Russian": "тётя",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "f",
+		"Case": ""
+	},
+	"204": {
+		"English": "Tanya",
+		"Russian": "Та́ня",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"205": {
+		"English": "grandfather",
+		"Russian": "де́душка",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"206": {
+		"English": "grandmother",
+		"Russian": "ба́бушка",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"207": {
+		"English": "we have, at our house",
+		"Russian": "у нас",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"208": {
+		"English": "everybody",
+		"Russian": "все",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"209": {
+		"English": "loudly",
+		"Russian": "гро́мко",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"210": {
+		"English": "at his house in the village",
+		"Russian": "у него́ в дере́вне",
+		"Unit": 9,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"211": {
+		"English": "lesson",
+		"Russian": "уро́к",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"212": {
+		"English": "to study",
+		"Russian": "изуча́ть",
+		"Unit": 10,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"213": {
+		"English": "language",
+		"Russian": "язы́к",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"214": {
+		"English": "Russian language",
+		"Russian": "ру́сский язы́к",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"215": {
+		"English": "to ask (questions)",
+		"Russian": "спра́шивать",
+		"Unit": 10,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": "use with acc. of person asked"
+	},
+	"216": {
+		"English": "to answer",
+		"Russian": "отвеча́ть",
+		"Unit": 10,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"217": {
+		"English": "interesting",
+		"Russian": "интере́сный , -ая, -ое",
+		"Unit": 10,
+		"Topic": "adjective",
+		"Gender": "",
+		"Case": ""
+	},
+	"218": {
+		"English": "Ivan",
+		"Russian": "Ива́на",
+		"Unit": 10,
+		"Topic": "name",
+		"Gender": "",
+		"Case": "acc"
+	},
+	"219": {
+		"English": "one says, people say",
+		"Russian": "говоря́т",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"220": {
+		"English": "good, kind",
+		"Russian": "до́брый , -ая, -ое",
+		"Unit": 10,
+		"Topic": "adj",
+		"Gender": "m, f, n",
+		"Case": ""
+	},
+	"221": {
+		"English": "morning",
+		"Russian": "у́тро",
+		"Unit": 10,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"222": {
+		"English": "good morning",
+		"Russian": "до́брое у́тро",
+		"Unit": 10,
+		"Topic": "greeting",
+		"Gender": "",
+		"Case": ""
+	},
+	"223": {
+		"English": "in the daytime",
+		"Russian": "днём",
+		"Unit": 10,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"224": {
+		"English": "then, afterward",
+		"Russian": "пото́м",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"225": {
+		"English": "evening",
+		"Russian": "ве́чер",
+		"Unit": 10,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"226": {
+		"English": "hello! how do you do?",
+		"Russian": "здра́вствуйте",
+		"Unit": 10,
+		"Topic": "greeting",
+		"Gender": "",
+		"Case": ""
+	},
+	"227": {
+		"English": "both...and",
+		"Russian": "и...и",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"228": {
+		"English": "at night",
+		"Russian": "но́чью",
+		"Unit": 10,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"229": {
+		"English": "yesterday",
+		"Russian": "вчера́",
+		"Unit": 10,
+		"Topic": "time",
+		"Gender": "",
+		"Case": ""
+	},
+	"230": {
+		"English": "knew",
+		"Russian": "зна́ла",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "f",
+		"Case": ""
+	},
+	"231": {
+		"English": "owner, mistress, hostess",
+		"Russian": "хозя́йка",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"232": {
+		"English": "to the hostess (to the owner of the house)",
+		"Russian": "хозя́йке до́ма",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"233": {
+		"English": "to go, to walk",
+		"Russian": "идти́",
+		"Unit": 10,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"234": {
+		"English": "home, homeward",
+		"Russian": "домо́й",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"235": {
+		"English": "I hate to go home",
+		"Russian": "о́чень не хочу́ идти́ домо́й",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"236": {
+		"English": "late",
+		"Russian": "по́здно",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"237": {
+		"English": "owner, master, host",
+		"Russian": "хозя́ин",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"238": {
+		"English": "if",
+		"Russian": "е́сли",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"239": {
+		"English": "for a long time",
+		"Russian": "до́лго",
+		"Unit": 10,
+		"Topic": "adverb",
+		"Gender": "",
+		"Case": ""
+	},
+	"240": {
+		"English": "you worked",
+		"Russian": "вы рабо́тали",
+		"Unit": 10,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"241": {
+		"English": "tomorrow",
+		"Russian": "за́втра",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"242": {
+		"English": "much work",
+		"Russian": "мно́го рабо́ты",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"243": {
+		"English": "better",
+		"Russian": "лу́чше",
+		"Unit": 10,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"244": {
+		"English": "to sleep",
+		"Russian": "спать",
+		"Unit": 10,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"245": {
+		"English": "where to, whither",
+		"Russian": "куда",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"246": {
+		"English": "where are you going?",
+		"Russian": "куда вы идёте?",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"247": {
+		"English": "Nicholas",
+		"Russian": "Николай",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"248": {
+		"English": "Paul",
+		"Russian": "Павел",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"249": {
+		"English": "How are you?",
+		"Russian": "как вы поживаете?",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"250": {
+		"English": "to get on (I)",
+		"Russian": "поживать",
+		"Unit": 11,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"251": {
+		"English": "thanks, thank you",
+		"Russian": "спасибо",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"252": {
+		"English": "park",
+		"Russian": "парк",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"253": {
+		"English": "it is a pity",
+		"Russian": "жаль",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"254": {
+		"English": "it is a great pity, it is too bad",
+		"Russian": "очень жаль",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"255": {
+		"English": "day",
+		"Russian": "день",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"256": {
+		"English": "a beautiful day",
+		"Russian": "жороший день",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"257": {
+		"English": "to walk (for pleasure) (I); to take a walk",
+		"Russian": "гулять",
+		"Unit": 11,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"258": {
+		"English": "Olga",
+		"Russian": "Ольга",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"259": {
+		"English": "will be",
+		"Russian": "будет",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"260": {
+		"English": "girl",
+		"Russian": "девушка",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"261": {
+		"English": "of course, certainly",
+		"Russian": "конечно",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"262": {
+		"English": "beauty, a beautiful girl",
+		"Russian": "красавица",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"263": {
+		"English": "good-bye",
+		"Russian": "до свидания",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"264": {
+		"English": "clever, smart",
+		"Russian": "умный",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"265": {
+		"English": "man, person",
+		"Russian": "человек",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"266": {
+		"English": "hello!",
+		"Russian": "алло!",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"267": {
+		"English": "telphone",
+		"Russian": "телефон",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"268": {
+		"English": "who is on the phone?",
+		"Russian": "кто у телефона?",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"269": {
+		"English": "Smirnov",
+		"Russian": "Смирнов",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"270": {
+		"English": "now, right now",
+		"Russian": "сейчас",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"271": {
+		"English": "I shall be",
+		"Russian": "буду",
+		"Unit": 11,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"272": {
+		"English": "New York",
+		"Russian": "Нью-Йорк",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"273": {
+		"English": "oh!",
+		"Russian": "ах!",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"274": {
+		"English": "to go (by conveyance), to ride (I)",
+		"Russian": "ехать",
+		"Unit": 11,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"275": {
+		"English": "Washington",
+		"Russian": "Вашингтон",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"276": {
+		"English": "how long?",
+		"Russian": "как долго?",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"277": {
+		"English": "perhaps, maybe",
+		"Russian": "может быть",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"278": {
+		"English": "here; even",
+		"Russian": "и",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"279": {
+		"English": "what are you going to do?",
+		"Russian": "что вы будете делать?",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"280": {
+		"English": "please",
+		"Russian": "пожалуйста",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"281": {
+		"English": "do not ask",
+		"Russian": "не спрашивайте",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"282": {
+		"English": "for the time being",
+		"Russian": "пока",
+		"Unit": 11,
+		"Topic": "adverb",
+		"Gender": "",
+		"Case": ""
+	},
+	"283": {
+		"English": "as yet, still",
+		"Russian": "пока ещё",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"284": {
+		"English": "secret",
+		"Russian": "секрет",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"285": {
+		"English": "ah!",
+		"Russian": "а!",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"286": {
+		"English": "recently",
+		"Russian": "недавно",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"287": {
+		"English": "was",
+		"Russian": "была",
+		"Unit": 11,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"288": {
+		"English": "with her",
+		"Russian": "с ней",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	},
+	"289": {
+		"English": "to remember (II)",
+		"Russian": "помнить",
+		"Unit": 11,
+		"Topic": "verb",
+		"Gender": "",
+		"Case": ""
+	},
+	"290": {
+		"English": "all this",
+		"Russian": "всё это",
+		"Unit": 11,
+		"Topic": "",
+		"Gender": "",
+		"Case": ""
+	}
+}

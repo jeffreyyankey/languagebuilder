@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-
 import {AngularFire, FirebaseListObservable} from 'angularfire2';
+import { Subject } from 'rxjs/Subject';
 
 @Component({
 	selector: 'page-russian',
@@ -9,10 +8,19 @@ import {AngularFire, FirebaseListObservable} from 'angularfire2';
 })
 
 export class RussianPage {
-
 	words: FirebaseListObservable<any>;
+	sizeSubject: Subject<any>;
 
-	constructor(public navCtrl: NavController, public navParams: NavParams, af: AngularFire) {
-		this.words = af.database.list('/words');
+	constructor(af: AngularFire) {
+		this.sizeSubject = new Subject();
+		this.words = af.database.list('/words', {
+			query: {
+				orderByChild: 'Unit',
+				equalTo: this.sizeSubject
+			}
+		});
+	}
+	filterBy(size: number) {
+		this.sizeSubject.next(size);
 	}
 }

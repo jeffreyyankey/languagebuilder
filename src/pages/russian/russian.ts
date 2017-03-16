@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import {AngularFire, FirebaseListObservable} from 'angularfire2';
 import { AlertController } from 'ionic-angular';
 import { GlobalVars } from '../../providers/global-vars';
+import { UnitService } from '../../providers/unit-service';
+import { Subject } from 'rxjs/Subject';
 
 @Component({
 	selector: 'page-russian',
@@ -9,19 +11,24 @@ import { GlobalVars } from '../../providers/global-vars';
 })
 
 export class RussianPage {
-	testCheckboxOpen: boolean;
-	testCheckboxResult;
-
-	units: FirebaseListObservable<any>;
+	rpCheckboxOpen: boolean;
 	words: FirebaseListObservable<any>;
 
-	constructor(af: AngularFire, public ac: AlertController, public gv: GlobalVars) {
-		this.units = af.database.list('/units/');
-		this.words = af.database.list('/words/');
+	constructor(
+		private ac: AlertController,
+		private units: GlobalVars,
+		private us: UnitService,
+	) {
+	}
 
-		console.log('units', this.units);
+	getAllWords() {
+		this.words = this.us.getAll();
 		console.log('words', this.words);
-		console.log('gv', gv.myGlobalVar);
+	}
+
+	getUnitWords(unit:Subject<string>) {
+		this.words = this.us.getUnit();
+		console.log('words', this.words);
 	}
 
 	showCheckbox() {
@@ -29,31 +36,38 @@ export class RussianPage {
 		alert.setTitle('Which Units to Include?');
 
 		alert.addInput({
-			type: 'checkbox',
-			label: 'Unit 02',
-			value: '02',
-			checked: true
-		});
+				type: 'radio',
+				label: 'All',
+				value: 'all',
+				checked: true
+			});
 
-		alert.addInput({
-			type: 'checkbox',
-			label: 'Unit 03',
-			value: '03',
-			checked: true
-		});
+		for(let unit of this.units.unitsAvailable) {
+			alert.addInput({
+				type: 'radio',
+				label: unit.title,
+				value: unit.unit,
+				checked: false
+			});
+		}
 
 		alert.addButton('Cancel');
 		alert.addButton({
 			text: 'Okay',
 			handler: data => {
-				console.log('Checkbox data:', data);
-				this.testCheckboxOpen = false;
-				this.testCheckboxResult = data;
+				console.log('data', data);
+				this.rpCheckboxOpen = false;
+				if (data === 'all') {
+					this.getAllWords();
+				}
+				else {
+					this.getUnitWords(data);
+				}
 			}
 		});
 
 		alert.present().then(() => {
-			this.testCheckboxOpen = true;
+			this.rpCheckboxOpen = true;
 		});
 	}
 }

@@ -3,6 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import {GlobalVars} from '../providers/global-vars';
+import { UnitService } from '../providers/unit-service';
 
 import { HomePage } from '../pages/home/home';
 import { EnglishPage } from '../pages/english/english';
@@ -40,6 +41,7 @@ export const firebaseConfig = {
 	],
 	providers: [
 		[GlobalVars],
+		[UnitService],
 		{provide: ErrorHandler, useClass: IonicErrorHandler}
 	]
 })

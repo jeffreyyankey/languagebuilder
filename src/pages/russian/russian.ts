@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {AngularFire, FirebaseListObservable} from 'angularfire2';
 import { AlertController } from 'ionic-angular';
+import { GlobalVars } from '../../providers/global-vars';
 
 @Component({
 	selector: 'page-russian',
@@ -9,17 +10,18 @@ import { AlertController } from 'ionic-angular';
 
 export class RussianPage {
 	testCheckboxOpen: boolean;
-  testCheckboxResult;
+	testCheckboxResult;
 
 	units: FirebaseListObservable<any>;
 	words: FirebaseListObservable<any>;
 
-	constructor(af: AngularFire, public ac: AlertController) {
+	constructor(af: AngularFire, public ac: AlertController, public gv: GlobalVars) {
 		this.units = af.database.list('/units/');
 		this.words = af.database.list('/words/');
 
 		console.log('units', this.units);
 		console.log('words', this.words);
+		console.log('gv', gv.myGlobalVar);
 	}
 
 	showCheckbox() {

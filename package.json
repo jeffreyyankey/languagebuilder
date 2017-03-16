@@ -22,6 +22,7 @@
     "@ionic/cloud-angular": "^0.11.0",
     "@ionic/storage": "2.0.0",
     "angularfire2": "^2.0.0-beta.8",
+    "firebase": "^3.7.2",
     "ionic-angular": "2.2.0",
     "ionic-native": "2.4.1",
     "ionicons": "3.0.0",

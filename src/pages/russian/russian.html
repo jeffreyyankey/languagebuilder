@@ -9,13 +9,9 @@
 
 <ion-content>
 	<p padding>Input the Russian word on the left that matches the translated English word on the right.</p>
-	<div>
-		<h4>Filter by Unit</h4>
-		<button (click)="filterBy(1)">1</button>
-		<button (click)="filterBy(2)">2</button>
-		<button (click)="filterBy(3)">3</button>
-	</div>
-	<ion-list>
+	<button ion-button block color="primary" (click)="showCheckbox()">Show Checkbox Alert</button>
+
+	<ion-list *ngIf="testCheckboxResult">
 		<ion-item *ngFor="let word of words | async">
 			{{word.Russian}}
 			<div item-right>{{word.English}}</div>

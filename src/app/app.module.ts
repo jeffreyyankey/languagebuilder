@@ -35,6 +35,8 @@ export const firebaseConfig = {
 		EnglishPage,
 		RussianPage
 	],
-	providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+	providers: [
+		{provide: ErrorHandler, useClass: IonicErrorHandler}
+		]
 })
 export class AppModule {}

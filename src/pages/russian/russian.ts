@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {AngularFire, FirebaseListObservable} from 'angularfire2';
-import { Subject } from 'rxjs/Subject';
+import { AlertController } from 'ionic-angular';
 
 @Component({
 	selector: 'page-russian',
@@ -8,19 +8,50 @@ import { Subject } from 'rxjs/Subject';
 })
 
 export class RussianPage {
-	words: FirebaseListObservable<any>;
-	sizeSubject: Subject<any>;
+	testCheckboxOpen: boolean;
+  testCheckboxResult;
 
-	constructor(af: AngularFire) {
-		this.sizeSubject = new Subject();
-		this.words = af.database.list('/words', {
-			query: {
-				orderByChild: 'Unit',
-				equalTo: this.sizeSubject
+	units: FirebaseListObservable<any>;
+	words: FirebaseListObservable<any>;
+
+	constructor(af: AngularFire, public ac: AlertController) {
+		this.units = af.database.list('/units/');
+		this.words = af.database.list('/words/');
+
+		console.log('units', this.units);
+		console.log('words', this.words);
+	}
+
+	showCheckbox() {
+		let alert = this.ac.create();
+		alert.setTitle('Which Units to Include?');
+
+		alert.addInput({
+			type: 'checkbox',
+			label: 'Unit 02',
+			value: '02',
+			checked: true
+		});
+
+		alert.addInput({
+			type: 'checkbox',
+			label: 'Unit 03',
+			value: '03',
+			checked: true
+		});
+
+		alert.addButton('Cancel');
+		alert.addButton({
+			text: 'Okay',
+			handler: data => {
+				console.log('Checkbox data:', data);
+				this.testCheckboxOpen = false;
+				this.testCheckboxResult = data;
 			}
 		});
-	}
-	filterBy(size: number) {
-		this.sizeSubject.next(size);
+
+		alert.present().then(() => {
+			this.testCheckboxOpen = true;
+		});
 	}
 }

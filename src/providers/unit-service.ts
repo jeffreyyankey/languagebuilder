@@ -11,11 +11,11 @@ export class UnitService {
 		return this.af.database.list('/words');
 	}
 
-	getUnit(): FirebaseListObservable<any> {
+	getUnit(unitSubject: Subject<any>): FirebaseListObservable<any> {
 		return this.af.database.list('/words', {
 			query: {
 				orderByChild: 'unit',
-				equalTo: 2
+				equalTo: unitSubject
 			}
 		});
 	}

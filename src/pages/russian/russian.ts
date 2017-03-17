@@ -13,22 +13,14 @@ import { Subject } from 'rxjs/Subject';
 export class RussianPage {
 	rpCheckboxOpen: boolean;
 	words: FirebaseListObservable<any>;
+	unitSubject: Subject<any>;
 
 	constructor(
+		private af: AngularFire,
 		private ac: AlertController,
 		private units: GlobalVars,
 		private us: UnitService,
-	) {
-	}
-
-	getAllWords() {
-		this.words = this.us.getAll();
-		console.log('words', this.words);
-	}
-
-	getUnitWords(unit:Subject<string>) {
-		this.words = this.us.getUnit();
-		console.log('words', this.words);
+	){
 	}
 
 	showCheckbox() {
@@ -55,13 +47,13 @@ export class RussianPage {
 		alert.addButton({
 			text: 'Okay',
 			handler: data => {
-				console.log('data', data);
+				this.unitSubject = data;
 				this.rpCheckboxOpen = false;
 				if (data === 'all') {
-					this.getAllWords();
+					this.words = this.us.getAll();
 				}
 				else {
-					this.getUnitWords(data);
+					this.words = this.us.getUnit(this.unitSubject);
 				}
 			}
 		});

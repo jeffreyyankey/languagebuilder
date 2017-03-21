@@ -5,6 +5,8 @@ import { UnitService } from '../../providers/unit-service';
 import { WordService } from '../../providers/word-service';
 import { Subject } from 'rxjs/Subject';
 
+import { Autofocus } from '../../components/autofocus/autofocus';
+
 @Component({
 	selector: 'page-russian',
 	templateUrl: 'russian.html'
@@ -16,7 +18,6 @@ export class RussianTestPage {
 	units;
 
 	words;
-	randomOrder: any[];
 	currentWordNumber:number = 0;
 	showAnswer: boolean = false;
 
@@ -86,9 +87,10 @@ export class RussianTestPage {
 
 	nextWord() {
 		this.showAnswer = false;
-		this.currentWordNumber++;
 
-		if ( this.currentWordNumber >= this.words.length ) {
+		if ( this.currentWordNumber < this.words.length - 1 ) {
+			this.currentWordNumber++;
+		} else {
 			console.log('Test Over');
 		}
 	}

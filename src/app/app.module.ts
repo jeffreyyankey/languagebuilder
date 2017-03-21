@@ -10,6 +10,8 @@ import { HomePage } from '../pages/home/home';
 import { RussianReviewPage } from '../pages/review/russian';
 import { RussianTestPage } from '../pages/test/russian';
 
+import { Autofocus } from '../components/autofocus/autofocus';
+
 // Import the AF2 Module
 import { AngularFireModule } from 'angularfire2';
 
@@ -27,7 +29,8 @@ export const firebaseConfig = {
 		MyApp,
 		HomePage,
 		RussianReviewPage,
-		RussianTestPage
+		RussianTestPage,
+		Autofocus
 	],
 	imports: [
 		IonicModule.forRoot(MyApp),

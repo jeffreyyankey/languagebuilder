@@ -1,0 +1,38 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Test Русский to English</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div *ngIf="!words">
+		<p padding>Select the unit and number of words to test.</p>
+		<button ion-button block color="primary" (click)="showCheckbox()">
+			<ion-label text-center>Show Checkbox Alert</ion-label>
+		</button>
+	</div>
+	<div *ngIf="words && showAnswer === false">
+		<p padding>Input the Russian word on the left that matches the translated English word on the right.</p>
+		<ion-item>
+			<div text-center>
+				<strong>{{words[currentWordNumber].english}}</strong>
+				<hr>
+			</div>
+			<div text-center>
+				<input [(ngModel)]="words[currentWordNumber].answer" (keyup.enter)="showCurrentAnswer()" />
+			</div>
+		</ion-item>
+		<button ion-button block color="primary" (click)="showCurrentAnswer()">
+			<ion-label text-center>Submit</ion-label>
+		</button>
+	</div>
+	<div *ngIf="words && showAnswer === true">
+		<p padding>The word <strong>{{words[currentWordNumber].english}}</strong> is <strong>{{words[currentWordNumber].russian}}</strong> in Russian. Your answer was <strong>{{words[currentWordNumber].answer}}</strong>.</p>
+		<button ion-button block color="primary" (click)="nextWord()">
+			<ion-label text-center>Next</ion-label>
+		</button>
+	</div>
+</ion-content>

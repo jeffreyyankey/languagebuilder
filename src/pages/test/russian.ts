@@ -10,11 +10,15 @@ import { Subject } from 'rxjs/Subject';
 	templateUrl: 'russian.html'
 })
 
-export class RussianPage {
+export class RussianTestPage {
 	rpCheckboxOpen: boolean;
-	words: FirebaseListObservable<any>;
 	unitSubject: Subject<any>;
 	units;
+
+	words;
+	randomOrder: any[];
+	currentWordNumber:number = 0;
+	showAnswer: boolean = false;
 
 	constructor(
 		private af: AngularFire,
@@ -55,10 +59,18 @@ export class RussianPage {
 				this.unitSubject = data;
 				this.rpCheckboxOpen = false;
 				if (data === 'all') {
-					this.words = this.ws.getAll();
+					this.ws.getAll()
+					.subscribe( response => {
+						this.words = response;
+						this.shuffle(this.words);
+					})
 				}
 				else {
-					this.words = this.ws.getUnit(this.unitSubject);
+					this.ws.getUnit( this.unitSubject )
+					.subscribe( response => {
+						this.words = response;
+						this.shuffle(this.words);
+					})
 				}
 			}
 		});
@@ -66,5 +78,25 @@ export class RussianPage {
 		alert.present().then(() => {
 			this.rpCheckboxOpen = true;
 		});
+	}
+
+	showCurrentAnswer() {
+		this.showAnswer = true;
+	}
+
+	nextWord() {
+		this.showAnswer = false;
+		this.currentWordNumber++;
+
+		if ( this.currentWordNumber >= this.words.length ) {
+			console.log('Test Over');
+		}
+	}
+
+	 shuffle(a:any[]) {
+		for (let i = a.length; i; i--) {
+				let j = Math.floor(Math.random() * i);
+				[a[i - 1], a[j]] = [a[j], a[i - 1]];
+		}
 	}
 }

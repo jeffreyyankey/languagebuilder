@@ -10,7 +10,7 @@ import { Subject } from 'rxjs/Subject';
 	templateUrl: 'russian.html'
 })
 
-export class RussianPage {
+export class RussianReviewPage {
 	rpCheckboxOpen: boolean;
 	words: FirebaseListObservable<any>;
 	unitSubject: Subject<any>;

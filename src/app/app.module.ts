@@ -4,10 +4,11 @@ import { MyApp } from './app.component';
 
 import {GlobalVars} from '../providers/global-vars';
 import { UnitService } from '../providers/unit-service';
+import { WordService } from '../providers/word-service';
 
 import { HomePage } from '../pages/home/home';
-import { EnglishPage } from '../pages/english/english';
-import { RussianPage } from '../pages/russian/russian';
+import { RussianReviewPage } from '../pages/review/russian';
+import { RussianTestPage } from '../pages/test/russian';
 
 // Import the AF2 Module
 import { AngularFireModule } from 'angularfire2';
@@ -25,8 +26,8 @@ export const firebaseConfig = {
 	declarations: [
 		MyApp,
 		HomePage,
-		EnglishPage,
-		RussianPage
+		RussianReviewPage,
+		RussianTestPage
 	],
 	imports: [
 		IonicModule.forRoot(MyApp),
@@ -36,12 +37,13 @@ export const firebaseConfig = {
 	entryComponents: [
 		MyApp,
 		HomePage,
-		EnglishPage,
-		RussianPage
+		RussianReviewPage,
+		RussianTestPage
 	],
 	providers: [
 		[GlobalVars],
 		[UnitService],
+		[WordService],
 		{provide: ErrorHandler, useClass: IonicErrorHandler}
 	]
 })

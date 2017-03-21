@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { EnglishPage } from '../english/english';
-import { RussianPage } from '../russian/russian';
+import { RussianReviewPage } from '../review/russian';
+import { RussianTestPage } from '../test/russian';
 
 
 @Component({
@@ -13,11 +13,11 @@ export class HomePage {
 	constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
 	itemTapped(event, page) {
-		if (page === 'english') {
-			this.navCtrl.push(EnglishPage);
+		if (page === 'russian_book_review') {
+			this.navCtrl.push(RussianReviewPage);
 		}
-		if (page === 'russian') {
-			this.navCtrl.push(RussianPage);
+		if (page === 'russian_book_test') {
+			this.navCtrl.push(RussianTestPage);
 		}
 	}
 }

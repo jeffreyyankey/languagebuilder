@@ -8,15 +8,6 @@ export class UnitService {
 	constructor( private af: AngularFire ) {}
 
 	getAll(): FirebaseListObservable<any> {
-		return this.af.database.list('/words');
-	}
-
-	getUnit(unitSubject: Subject<any>): FirebaseListObservable<any> {
-		return this.af.database.list('/words', {
-			query: {
-				orderByChild: 'unit',
-				equalTo: unitSubject
-			}
-		});
+		return this.af.database.list('/units');
 	}
 }

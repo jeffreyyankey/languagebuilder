@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AngularFire, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2';
 import { AlertController } from 'ionic-angular';
 import { UnitService } from '../../providers/unit-service';
@@ -93,7 +93,7 @@ export class RussianTestPage {
 		}
 	}
 
-	 shuffle(a:any[]) {
+	shuffle(a:any[]) {
 		for (let i = a.length; i; i--) {
 				let j = Math.floor(Math.random() * i);
 				[a[i - 1], a[j]] = [a[j], a[i - 1]];

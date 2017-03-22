@@ -5,8 +5,6 @@ import { UnitService } from '../../providers/unit-service';
 import { WordService } from '../../providers/word-service';
 import { Subject } from 'rxjs/Subject';
 
-import { Autofocus } from '../../components/autofocus/autofocus';
-
 @Component({
 	selector: 'page-russian',
 	templateUrl: 'russian.html'

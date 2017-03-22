@@ -22,7 +22,7 @@
 				<hr>
 			</div>
 			<div text-center>
-				<input [(ngModel)]="words[currentWordNumber].answer" (keyup.enter)="showCurrentAnswer()" [autofocus]/>
+				<input [(ngModel)]="words[currentWordNumber].answer" (keyup.enter)="showCurrentAnswer()" />
 			</div>
 		</ion-item>
 		<button ion-button block color="primary" (click)="showCurrentAnswer()">

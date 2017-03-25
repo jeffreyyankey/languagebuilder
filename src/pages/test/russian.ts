@@ -18,6 +18,7 @@ export class RussianTestPage {
 	words;
 	currentWordNumber:number = 0;
 	showAnswer: boolean = false;
+	showFinal: boolean = false;
 
 	constructor(
 		private af: AngularFire,
@@ -89,7 +90,7 @@ export class RussianTestPage {
 		if ( this.currentWordNumber < this.words.length - 1 ) {
 			this.currentWordNumber++;
 		} else {
-			console.log('Test Over');
+			this.showFinal = false;
 		}
 	}
 

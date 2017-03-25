@@ -3,33 +3,53 @@
 		<button ion-button menuToggle>
 			<ion-icon name="menu"></ion-icon>
 		</button>
-		<ion-title>Test Русский to English</ion-title>
+		<ion-title>Translate to Русский</ion-title>
 	</ion-navbar>
 </ion-header>
 
-<ion-content padding="">
-	<div *ngIf="!words">
+<ion-content padding>
+
+	<div *ngIf="!words && showAnswer === false && showFinal === false">
 		<p>Select the unit and number of words to test.</p>
 		<button ion-button block color="primary" (click)="showCheckbox()">
 			<ion-label text-center>Show Checkbox Alert</ion-label>
 		</button>
 	</div>
-	<div *ngIf="words && showAnswer === false">
+
+	<div *ngIf="words && showAnswer === false && showFinal === false">
 		<p>Translate the English word to Russian.</p>
 		<ion-item>
-			<ion-label>{{words[currentWordNumber].english}}</ion-label>
+			<p text-center>English: <strong>{{words[currentWordNumber].english}}</strong></p>
+			<p *ngIf="words[currentWordNumber].case" text-center>Case: {{words[currentWordNumber].case}}</p>
 		</ion-item>
 		<ion-item>
-			<ion-input placeholder="Answer" type="text" [(ngModel)]="words[currentWordNumber].answer" (keyup.enter)="showCurrentAnswer()" ></ion-input>
+		<ion-input text-center placeholder="Click or tap here to answer" type="text" [(ngModel)]="words[currentWordNumber].answer" (keyup.enter)="showCurrentAnswer()"></ion-input>
 		</ion-item>
 		<button ion-button block color="primary" (click)="showCurrentAnswer()">
 			<ion-label text-center>Submit</ion-label>
 		</button>
 	</div>
-	<div *ngIf="words && showAnswer === true">
-		<p text-center>The word <strong>{{words[currentWordNumber].english}}</strong> is <strong>{{words[currentWordNumber].russian}}</strong> in Russian. Your answer was <strong>{{words[currentWordNumber].answer}}</strong>.</p>
+
+	<div *ngIf="words && showAnswer === true && showFinal === false">
+		<p text-center>English: <strong>{{words[currentWordNumber].english}}</strong></p>
+		<p *ngIf="words[currentWordNumber].case" text-center>Case: <strong>{{words[currentWordNumber].case}}</strong></p>
+		<p text-center>Русский: <strong>{{words[currentWordNumber].russian}}</strong></p>
+		<p text-center>Your answer: {{words[currentWordNumber].answer}}</p>
 		<button ion-button block color="primary" (click)="nextWord()">
 			<ion-label text-center>Next</ion-label>
 		</button>
 	</div>
+
+	<div *ngIf="words && showAnswer === false && showFinal === true">
+		<p>Translation Complete!</p>
+		<ion-list>
+			<ion-item *ngFor="let word of words">
+				<p text-center>English: <strong>{{word.english}}</strong></p>
+				<p *ngIf="word.case" text-center>Case: {{word.case}}</p>
+				<p text-center>Русский: <strong>{{word.russian}}</strong></p>
+				<p text-center>Your answer: <strong>{{word.answer}}</strong></p>
+			</ion-item>
+		</ion-list>
+	</div>
+
 </ion-content>

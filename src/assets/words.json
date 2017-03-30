@@ -17,12 +17,12 @@
 		},
 		"5": {
 			"title": "Unit 05",
-			"unit": "02",
+			"unit": "05",
 			"checked": true
 		},
 		"7": {
 			"title": "Unit 07",
-			"unit": "02",
+			"unit": "07",
 			"checked": true
 		},
 		"8": {
@@ -37,7 +37,7 @@
 		},
 		"10": {
 			"title": "Unit 10",
-			"unit": "02",
+			"unit": "10",
 			"checked": true
 		},
 		"11": {
@@ -54,7 +54,7 @@
 			"topic": "interrogative",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"2": {
 			"english": "Anna",
@@ -63,7 +63,7 @@
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"3": {
 			"english": "Vera",
@@ -72,7 +72,7 @@
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"4": {
 			"english": "Evan",
@@ -81,7 +81,7 @@
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"5": {
 			"english": "professor",
@@ -90,7 +90,7 @@
 			"topic": "person",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"6": {
 			"english": "student",
@@ -99,7 +99,7 @@
 			"topic": "person",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"7": {
 			"english": "student",
@@ -108,7 +108,7 @@
 			"topic": "person",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"8": {
 			"english": "students",
@@ -117,7 +117,7 @@
 			"topic": "person",
 			"gender": "pl",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"9": {
 			"english": "about",
@@ -125,8 +125,8 @@
 			"unit": "02",
 			"topic": "preposition",
 			"gender": "",
-			"case": "prep",
-			"verbform": ""
+			"case": "preposition",
+			"requireGender": ""
 		},
 		"10": {
 			"english": "against",
@@ -134,8 +134,8 @@
 			"unit": "02",
 			"topic": "preposition",
 			"gender": "",
-			"case": "acc",
-			"verbform": ""
+			"case": "accusative",
+			"requireGender": ""
 		},
 		"11": {
 			"english": "oh",
@@ -144,7 +144,7 @@
 			"topic": "exclamation",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"12": {
 			"english": "he",
@@ -153,7 +153,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"13": {
 			"english": "she",
@@ -162,7 +162,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"14": {
 			"english": "you (informal)",
@@ -171,7 +171,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"15": {
 			"english": "this",
@@ -180,7 +180,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"16": {
 			"english": "I",
@@ -189,7 +189,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"17": {
 			"english": "Who is this?",
@@ -198,7 +198,7 @@
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"18": {
 			"english": "O no!",
@@ -207,7 +207,7 @@
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"19": {
 			"english": "yes",
@@ -216,7 +216,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"20": {
 			"english": "and (inclusive)",
@@ -225,7 +225,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"21": {
 			"english": "or",
@@ -234,7 +234,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"22": {
 			"english": "not",
@@ -243,7 +243,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"23": {
 			"english": "no",
@@ -252,7 +252,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"24": {
 			"english": "also",
@@ -261,7 +261,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"25": {
 			"english": "magazine",
@@ -270,7 +270,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"26": {
 			"english": "map",
@@ -279,7 +279,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"27": {
 			"english": "picture",
@@ -288,7 +288,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"28": {
 			"english": "class",
@@ -297,7 +297,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"29": {
 			"english": "book",
@@ -306,7 +306,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"30": {
 			"english": "table",
@@ -315,7 +315,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"31": {
 			"english": "chair",
@@ -324,7 +324,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"32": {
 			"english": "where",
@@ -333,7 +333,7 @@
 			"topic": "interrogative",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"33": {
 			"english": "what",
@@ -342,7 +342,7 @@
 			"topic": "interrogative",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"34": {
 			"english": "there",
@@ -351,7 +351,7 @@
 			"topic": "location",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"35": {
 			"english": "here",
@@ -360,7 +360,7 @@
 			"topic": "location",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"36": {
 			"english": "Volgograd",
@@ -368,8 +368,8 @@
 			"unit": "03",
 			"topic": "name",
 			"gender": "m",
-			"case": "nom",
-			"verbform": ""
+			"case": "",
+			"requireGender": ""
 		},
 		"37": {
 			"english": "Moscow",
@@ -377,8 +377,8 @@
 			"unit": "03",
 			"topic": "name",
 			"gender": "f",
-			"case": "nom",
-			"verbform": ""
+			"case": "",
+			"requireGender": ""
 		},
 		"38": {
 			"english": "USSR",
@@ -387,7 +387,7 @@
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"39": {
 			"english": "on the table",
@@ -395,8 +395,8 @@
 			"unit": "03",
 			"topic": "phrase",
 			"gender": "",
-			"case": "prep",
-			"verbform": ""
+			"case": "prepositional",
+			"requireGender": ""
 		},
 		"40": {
 			"english": "in",
@@ -404,8 +404,8 @@
 			"unit": "03",
 			"topic": "prep",
 			"gender": "",
-			"case": "prep",
-			"verbform": ""
+			"case": "prepositional",
+			"requireGender": ""
 		},
 		"41": {
 			"english": "on, here (coll), take it",
@@ -413,8 +413,8 @@
 			"unit": "03",
 			"topic": "prep",
 			"gender": "",
-			"case": "prep",
-			"verbform": ""
+			"case": "prepositional",
+			"requireGender": ""
 		},
 		"42": {
 			"english": "you (plural, formal)",
@@ -423,7 +423,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"43": {
 			"english": "we",
@@ -432,7 +432,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"44": {
 			"english": "they",
@@ -441,7 +441,7 @@
 			"topic": "pronoun",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"45": {
 			"english": "No, this is not a table, but a chair.",
@@ -450,7 +450,7 @@
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"46": {
 			"english": "and (contrast), but (negative contrast)",
@@ -459,7 +459,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"47": {
 			"english": "well, healthy",
@@ -468,7 +468,7 @@
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"48": {
 			"english": "well, healthy",
@@ -477,7 +477,7 @@
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"49": {
 			"english": "not well, sick",
@@ -486,7 +486,7 @@
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"50": {
 			"english": "good",
@@ -495,7 +495,7 @@
 			"topic": "adj",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"51": {
 			"english": "at home",
@@ -504,7 +504,7 @@
 			"topic": "adv",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"52": {
 			"english": "wall",
@@ -513,7 +513,7 @@
 			"topic": "building",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"53": {
 			"english": "newspaper",
@@ -522,7 +522,7 @@
 			"topic": "classroom",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"54": {
 			"english": "blackboard",
@@ -531,7 +531,7 @@
 			"topic": "classroom",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"55": {
 			"english": "pencil",
@@ -540,16 +540,16 @@
 			"topic": "classroom",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"56": {
-			"english": "book (acc)",
+			"english": "book",
 			"russian": "кни́гу",
 			"unit": "04",
 			"topic": "classroom",
 			"gender": "f",
-			"case": "",
-			"verbform": ""
+			"case": "accusative",
+			"requireGender": ""
 		},
 		"57": {
 			"english": "pen",
@@ -558,7 +558,7 @@
 			"topic": "classroom",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"58": {
 			"english": "school",
@@ -567,7 +567,7 @@
 			"topic": "classroom",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"59": {
 			"english": "Peter",
@@ -576,7 +576,7 @@
 			"topic": "name",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"60": {
 			"english": "Petrov",
@@ -585,7 +585,7 @@
 			"topic": "name",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"61": {
 			"english": "Mr.",
@@ -594,7 +594,7 @@
 			"topic": "person",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"62": {
 			"english": "What else?",
@@ -603,7 +603,7 @@
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"63": {
 			"english": "That is very good",
@@ -612,7 +612,7 @@
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"64": {
 			"english": "today",
@@ -621,7 +621,7 @@
 			"topic": "time",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"65": {
 			"english": "reads",
@@ -630,7 +630,7 @@
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"66": {
 			"english": "here is, here are",
@@ -639,7 +639,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"67": {
 			"english": "still, more",
@@ -648,7 +648,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"68": {
 			"english": "a lot",
@@ -657,7 +657,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"69": {
 			"english": "but",
@@ -666,7 +666,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"70": {
 			"english": "very",
@@ -675,7 +675,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"71": {
 			"english": "beautiful",
@@ -684,7 +684,7 @@
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"72": {
 			"english": "my",
@@ -693,7 +693,7 @@
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"73": {
 			"english": "my",
@@ -702,7 +702,7 @@
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"74": {
 			"english": "new",
@@ -711,7 +711,7 @@
 			"topic": "adj",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"75": {
 			"english": "new",
@@ -720,7 +720,7 @@
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"76": {
 			"english": "rapidly, fast",
@@ -729,7 +729,7 @@
 			"topic": "adv",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"77": {
 			"english": "slowly",
@@ -738,7 +738,7 @@
 			"topic": "adv",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"78": {
 			"english": "badly, poorly",
@@ -747,7 +747,7 @@
 			"topic": "adv",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"79": {
 			"english": "Russian, in Russian",
@@ -756,7 +756,7 @@
 			"topic": "adv",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"80": {
 			"english": "already",
@@ -765,7 +765,7 @@
 			"topic": "adv",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"81": {
 			"english": "door",
@@ -774,7 +774,7 @@
 			"topic": "building",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"82": {
 			"english": "room",
@@ -783,7 +783,7 @@
 			"topic": "building",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"83": {
 			"english": "window",
@@ -792,7 +792,7 @@
 			"topic": "building",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"84": {
 			"english": "paper",
@@ -801,7 +801,7 @@
 			"topic": "classroom",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"85": {
 			"english": "lamp",
@@ -810,7 +810,7 @@
 			"topic": "classroom",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"86": {
 			"english": "chalk",
@@ -819,7 +819,7 @@
 			"topic": "classroom",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"87": {
 			"english": "with chalk",
@@ -828,7 +828,7 @@
 			"topic": "instrumental phrase",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"88": {
 			"english": "how",
@@ -837,7 +837,7 @@
 			"topic": "interrogative",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"89": {
 			"english": "with what",
@@ -846,7 +846,7 @@
 			"topic": "interrogative",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"90": {
 			"english": "my",
@@ -855,7 +855,7 @@
 			"topic": "possessive adj",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"91": {
 			"english": "yours",
@@ -864,7 +864,7 @@
 			"topic": "possessive pronoun",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"92": {
 			"english": "yours",
@@ -873,7 +873,7 @@
 			"topic": "possessive pronoun",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"93": {
 			"english": "yours",
@@ -882,7 +882,7 @@
 			"topic": "possessive pronoun",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"94": {
 			"english": "always",
@@ -891,7 +891,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"95": {
 			"english": "English, in English",
@@ -900,7 +900,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"96": {
 			"english": "only",
@@ -909,7 +909,7 @@
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"97": {
 			"english": "bad, poor",
@@ -918,7 +918,7 @@
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"98": {
 			"english": "bad, poor",
@@ -927,7 +927,7 @@
 			"topic": "adj",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"99": {
 			"english": "bad, poor",
@@ -936,7 +936,7 @@
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
 		"100": {
 			"english": "Russian",
@@ -945,1717 +945,1744 @@
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"101": {
-			"english": "good",
-			"russian": "хоро́шaя",
-			"unit": "07",
-			"topic": "adj",
-			"gender": "f",
-			"case": "",
-			"verbform": ""
-		},
-		"102": {
 			"english": "good",
 			"russian": "хоро́шая",
 			"unit": "07",
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"103": {
+		"102": {
 			"english": "good",
 			"russian": "хоро́шее",
 			"unit": "07",
 			"topic": "adj",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"104": {
+		"103": {
 			"english": "good",
 			"russian": "хоро́ший",
 			"unit": "07",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"105": {
+		"104": {
 			"english": "why",
 			"russian": "почему́",
 			"unit": "07",
 			"topic": "interrogative",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"106": {
+		"105": {
 			"english": "USA",
 			"russian": "Аме́рика",
 			"unit": "07",
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"107": {
+		"106": {
 			"english": "Miss, Mrs",
 			"russian": "госпожа́",
 			"unit": "07",
 			"topic": "person",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"108": {
+		"107": {
 			"english": "pupil",
 			"russian": "учени́к",
 			"unit": "07",
 			"topic": "person",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"109": {
+		"108": {
 			"english": "pupil",
 			"russian": "учени́ца",
 			"unit": "07",
 			"topic": "person",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"110": {
+		"109": {
 			"english": "teacher",
 			"russian": "учи́тель",
 			"unit": "07",
 			"topic": "person",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"111": {
+		"110": {
 			"english": "teacher",
 			"russian": "учи́тельница",
 			"unit": "07",
 			"topic": "person",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"112": {
+		"111": {
 			"english": "near",
 			"russian": "о́коло",
 			"unit": "07",
 			"topic": "prep",
 			"gender": "",
-			"case": "gen",
-			"verbform": ""
+			"case": "genitive",
+			"requireGender": ""
 		},
-		"113": {
+		"112": {
 			"english": "I do not yet speak",
 			"russian": "ешё не говорю́",
 			"unit": "07",
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"114": {
+		"113": {
 			"english": "he reads nothing",
 			"russian": "нечего́ не чита́ет",
 			"unit": "07",
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"115": {
+		"114": {
 			"english": "He has been only one year in the USA",
 			"russian": "он то́лько оди́н год в Аме́рике",
 			"unit": "07",
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"116": {
+		"115": {
 			"english": "he only talks and talks",
 			"russian": "то́лько говори́т и говори́т",
 			"unit": "07",
 			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"117": {
+		"116": {
 			"english": "Ivanova",
 			"russian": "Ивано́ва",
 			"unit": "07",
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"118": {
+		"117": {
 			"english": "year",
 			"russian": "год",
 			"unit": "07",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"119": {
+		"118": {
 			"english": "now",
 			"russian": "тепе́рь",
 			"unit": "07",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"120": {
+		"119": {
 			"english": "little (not much)",
 			"russian": "ма́ло",
 			"unit": "07",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"121": {
+		"120": {
 			"english": "nothing",
 			"russian": "ничего́",
 			"unit": "07",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"122": {
+		"121": {
 			"english": "because",
 			"russian": "потому́ что",
 			"unit": "07",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"123": {
+		"122": {
 			"english": "also, in addition",
 			"russian": "та́кже",
 			"unit": "07",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"124": {
+		"123": {
 			"english": "Boris",
 			"russian": "Борис",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"125": {
+		"124": {
 			"english": "brother",
 			"russian": "брат",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"126": {
+		"125": {
 			"english": "all, everything",
 			"russian": "весь",
 			"unit": "08",
 			"topic": "adj",
-			"gender": "",
+			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
+		},
+		"126": {
+			"english": "all, everything",
+			"russian": "всё",
+			"unit": "08",
+			"topic": "adj",
+			"gender": "n",
+			"case": "",
+			"requireGender": ""
 		},
 		"127": {
 			"english": "all, everything",
+			"russian": "вся",
+			"unit": "08",
+			"topic": "adj",
+			"gender": "f",
+			"case": "",
+			"requireGender": ""
+		},
+		"128": {
+			"english": "all day",
 			"russian": "весь день",
 			"unit": "08",
 			"topic": "phrase",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"128": {
-			"english": "all, everything",
+		"129": {
+			"english": "in the evening",
 			"russian": "вечером",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "",
 			"case": "",
-			"verbform": ""
-		},
-		"129": {
-			"english": "all, everything",
-			"russian": "всё",
-			"unit": "08",
-			"topic": "adj",
-			"gender": "",
-			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"130": {
-			"english": "all, everything",
-			"russian": "вся",
-			"unit": "08",
-			"topic": "adj",
-			"gender": "",
-			"case": "",
-			"verbform": ""
-		},
-		"131": {
 			"english": "to give",
 			"russian": "давать",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"132": {
+		"131": {
 			"english": "to do",
 			"russian": "делать",
 			"unit": "08",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"133": {
+		"132": {
 			"english": "day",
 			"russian": "день",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"134": {
+		"133": {
 			"english": "divan (couch)",
 			"russian": "диван",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"135": {
+		"134": {
 			"english": "doctor",
 			"russian": "доктор",
 			"unit": "08",
 			"topic": "person",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"136": {
+		"135": {
 			"english": "to play",
 			"russian": "играть",
 			"unit": "08",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"137": {
+		"136": {
 			"english": "to love",
 			"russian": "любить",
 			"unit": "08",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"138": {
+		"137": {
 			"english": "small",
 			"russian": "маленькая",
 			"unit": "08",
 			"topic": "",
-			"gender": "",
+			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"139": {
+		"138": {
 			"english": "small",
 			"russian": "маленький",
 			"unit": "08",
 			"topic": "",
-			"gender": "",
+			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"140": {
+		"139": {
 			"english": "small",
 			"russian": "маленькое",
 			"unit": "08",
 			"topic": "",
-			"gender": "",
+			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": "TRUE"
 		},
-		"141": {
+		"140": {
 			"english": "mother",
 			"russian": "мать",
 			"unit": "08",
 			"topic": "person",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"142": {
+		"141": {
 			"english": "Masha",
 			"russian": "Маша",
 			"unit": "08",
 			"topic": "name",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"143": {
+		"142": {
 			"english": "our",
 			"russian": "наш",
 			"unit": "08",
 			"topic": "",
-			"gender": "",
+			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"144": {
+		"143": {
 			"english": "our",
 			"russian": "наша",
 			"unit": "08",
 			"topic": "",
-			"gender": "",
+			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"145": {
+		"144": {
 			"english": "our",
 			"russian": "наше",
 			"unit": "08",
 			"topic": "",
-			"gender": "",
+			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"146": {
+		"145": {
 			"english": "to rest",
 			"russian": "отдыхать",
 			"unit": "08",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"147": {
+		"146": {
 			"english": "father",
 			"russian": "отец",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"148": {
+		"147": {
 			"english": "with",
 			"russian": "с",
 			"unit": "08",
 			"topic": "preposition",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"149": {
+		"148": {
 			"english": "with the dog",
 			"russian": "с собака",
 			"unit": "08",
 			"topic": "phrase",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"150": {
+		"149": {
 			"english": "family",
 			"russian": "семья",
 			"unit": "08",
 			"topic": "person",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"151": {
+		"150": {
 			"english": "sister",
 			"russian": "сестра",
 			"unit": "08",
 			"topic": "person",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"152": {
+		"151": {
 			"english": "to sit",
 			"russian": "сидеть",
 			"unit": "08",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"153": {
+		"152": {
 			"english": "dog",
 			"russian": "соба́ка",
 			"unit": "08",
 			"topic": "animal",
 			"gender": "",
-			"case": "",
-			"verbform": ""
+			"case": "nominative",
+			"requireGender": ""
 		},
-		"154": {
+		"153": {
 			"english": "to the dog",
 			"russian": "соба́ке",
 			"unit": "08",
 			"topic": "phrase",
 			"gender": "",
 			"case": "dative",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"155": {
+		"154": {
 			"english": "in the morning",
 			"russian": "утром",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"156": {
+		"155": {
 			"english": "chocalate",
 			"russian": "шокалат",
 			"unit": "08",
 			"topic": "food",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"157": {
+		"156": {
 			"english": "chocalates",
 			"russian": "шоколад",
 			"unit": "08",
 			"topic": "food",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"158": {
+		"157": {
 			"english": "I don't like to work",
 			"russian": "я не люблю работать",
 			"unit": "08",
-			"topic": "phrase",
+			"topic": "sentence",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"159": {
+		"158": {
 			"english": "soft",
 			"russian": "мякий",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"160": {
+		"159": {
 			"english": "hard",
 			"russian": "твёрдый",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"161": {
+		"160": {
 			"english": "to live, to dwell",
 			"russian": "жить",
 			"unit": "08",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"162": {
+		"161": {
 			"english": "village, country",
 			"russian": "дере́вня",
 			"unit": "08",
 			"topic": "place",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"163": {
+		"162": {
 			"english": "town",
 			"russian": "го́род",
 			"unit": "08",
 			"topic": "place",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"164": {
+		"163": {
 			"english": "quiet",
 			"russian": "ти́хо",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"165": {
+		"164": {
 			"english": "after",
 			"russian": "по́сле",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
-			"case": "with genitive",
-			"verbform": ""
+			"case": "genitive",
+			"requireGender": ""
 		},
-		"166": {
+		"165": {
 			"english": "work",
 			"russian": "рабо́та",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"167": {
+		"166": {
 			"english": "store",
 			"russian": "магази́н",
 			"unit": "08",
 			"topic": "place",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"168": {
+		"167": {
 			"english": "when",
 			"russian": "когда́",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"169": {
+		"168": {
 			"english": "nowhere",
 			"russian": "нигде́",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"170": {
+		"169": {
 			"english": "she works nowhere, she does not work anywhere",
 			"russian": "она́ нигде́ не рабо́тает",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"171": {
+		"170": {
 			"english": "never",
 			"russian": "никогда́",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"172": {
+		"171": {
 			"english": "to stay home",
 			"russian": "сиде́ть до́ма",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"173": {
+		"172": {
 			"english": "(emphatic) then, but",
 			"russian": "же",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"174": {
+		"173": {
 			"english": "what then",
 			"russian": "что же",
 			"unit": "08",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"175": {
+		"174": {
 			"english": "to prefer",
 			"russian": "предпочита́ть",
 			"unit": "09",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"176": {
+		"175": {
 			"english": "by, at",
 			"russian": "у",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"177": {
+		"176": {
 			"english": "I have (lit. by me)",
 			"russian": "у меня́",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"178": {
+		"177": {
 			"english": "I have, I do have (lit. by me there is)",
 			"russian": "у меня́ есть",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"179": {
+		"178": {
 			"english": "unattractive, ugly",
 			"russian": "некраси́вый, -ая, -ое",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"180": {
+		"179": {
 			"english": "floor",
 			"russian": "пол",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"181": {
+		"180": {
 			"english": "ceiling",
 			"russian": "потоло́к",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
+		},
+		"181": {
+			"english": "old",
+			"russian": "ста́рый",
+			"unit": "09",
+			"topic": "adj",
+			"gender": "m",
+			"case": "",
+			"requireGender": ""
 		},
 		"182": {
 			"english": "old",
-			"russian": "ста́рый, -ая, -ое",
-			"unit": "09",
+			"russian": "ста́рая",
+			"unit": "10",
 			"topic": "adj",
-			"gender": "m, f, n",
+			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"183": {
-			"english": "big",
-			"russian": "большо́й, больша́я, большо́е",
-			"unit": "09",
+			"english": "old",
+			"russian": "ста́рое",
+			"unit": "11",
 			"topic": "adj",
-			"gender": "m, f, n",
+			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
 		"184": {
+			"english": "big",
+			"russian": "большо́й",
+			"unit": "09",
+			"topic": "adj",
+			"gender": "m",
+			"case": "",
+			"requireGender": ""
+		},
+		"185": {
+			"english": "big",
+			"russian": "больша́я",
+			"unit": "10",
+			"topic": "adj",
+			"gender": "f",
+			"case": "",
+			"requireGender": ""
+		},
+		"186": {
+			"english": "big",
+			"russian": "большо́е",
+			"unit": "11",
+			"topic": "adj",
+			"gender": "n",
+			"case": "",
+			"requireGender": ""
+		},
+		"187": {
 			"english": "two",
 			"russian": "два",
 			"unit": "09",
 			"topic": "number",
 			"gender": "m, n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"185": {
+		"188": {
 			"english": "armchair",
 			"russian": "кре́сло",
 			"unit": "09",
 			"topic": "furniture",
 			"gender": "n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"186": {
+		"189": {
 			"english": "three",
 			"russian": "три",
 			"unit": "09",
 			"topic": "number",
-			"gender": "m, f, n",
+			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"187": {
+		"190": {
 			"english": "on the floor",
 			"russian": "на полу́",
 			"unit": "09",
 			"topic": "phrase",
 			"gender": "",
-			"case": "prep",
-			"verbform": ""
+			"case": "prepositional",
+			"requireGender": ""
 		},
-		"188": {
+		"191": {
 			"english": "to want, wish",
 			"russian": "хоте́ть",
 			"unit": "09",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"189": {
+		"192": {
 			"english": "father",
 			"russian": "оте́ц",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"190": {
+		"193": {
 			"english": "father has",
 			"russian": "у отца́",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"191": {
+		"194": {
 			"english": "house",
 			"russian": "дом",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"192": {
+		"195": {
 			"english": "to be able to",
 			"russian": "мочь",
 			"unit": "09",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"193": {
+		"196": {
 			"english": "Katya",
 			"russian": "Ка́тя",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"194": {
+		"197": {
 			"english": "her",
 			"russian": "её",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"195": {
+		"198": {
 			"english": "husband",
 			"russian": "муж",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"196": {
+		"199": {
 			"english": "Petya",
 			"russian": "Пе́тя",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"197": {
+		"200": {
 			"english": "Fedya",
 			"russian": "Фе́дя",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"198": {
+		"201": {
 			"english": "his",
 			"russian": "его́",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"199": {
+		"202": {
 			"english": "wife",
 			"russian": "жена́",
 			"unit": "09",
 			"topic": "",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"200": {
+		"203": {
 			"english": "Nadya",
 			"russian": "На́дя",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"201": {
+		"204": {
 			"english": "uncle",
 			"russian": "дя́дя",
 			"unit": "09",
 			"topic": "",
 			"gender": "m",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"202": {
+		"205": {
 			"english": "Vanya",
 			"russian": "Ва́ня",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"203": {
+		"206": {
 			"english": "aunt",
 			"russian": "тётя",
 			"unit": "09",
 			"topic": "",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"204": {
+		"207": {
 			"english": "Tanya",
 			"russian": "Та́ня",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"205": {
+		"208": {
 			"english": "grandfather",
 			"russian": "де́душка",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"206": {
+		"209": {
 			"english": "grandmother",
 			"russian": "ба́бушка",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"207": {
+		"210": {
 			"english": "we have, at our house",
 			"russian": "у нас",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"208": {
+		"211": {
 			"english": "everybody",
 			"russian": "все",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"209": {
+		"212": {
 			"english": "loudly",
 			"russian": "гро́мко",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"210": {
+		"213": {
 			"english": "at his house in the village",
 			"russian": "у него́ в дере́вне",
 			"unit": "09",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"211": {
+		"214": {
 			"english": "lesson",
 			"russian": "уро́к",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"212": {
+		"215": {
 			"english": "to study",
 			"russian": "изуча́ть",
 			"unit": "10",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"213": {
+		"216": {
 			"english": "language",
 			"russian": "язы́к",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"214": {
+		"217": {
 			"english": "Russian language",
 			"russian": "ру́сский язы́к",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"215": {
+		"218": {
 			"english": "to ask (questions)",
 			"russian": "спра́шивать",
 			"unit": "10",
 			"topic": "verb",
 			"gender": "",
-			"case": "use with acc. of person asked",
-			"verbform": ""
+			"case": "",
+			"requireGender": ""
 		},
-		"216": {
+		"219": {
 			"english": "to answer",
 			"russian": "отвеча́ть",
 			"unit": "10",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"217": {
+		"220": {
 			"english": "interesting",
 			"russian": "интере́сный , -ая, -ое",
 			"unit": "10",
 			"topic": "adjective",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"218": {
+		"221": {
 			"english": "Ivan",
 			"russian": "Ива́на",
 			"unit": "10",
 			"topic": "name",
 			"gender": "",
-			"case": "acc",
-			"verbform": ""
+			"case": "accusative",
+			"requireGender": ""
 		},
-		"219": {
+		"222": {
 			"english": "one says, people say",
 			"russian": "говоря́т",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"220": {
+		"223": {
 			"english": "good, kind",
 			"russian": "до́брый , -ая, -ое",
 			"unit": "10",
 			"topic": "adj",
 			"gender": "m, f, n",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"221": {
+		"224": {
 			"english": "morning",
 			"russian": "у́тро",
 			"unit": "10",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"222": {
+		"225": {
 			"english": "good morning",
 			"russian": "до́брое у́тро",
 			"unit": "10",
 			"topic": "greeting",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"223": {
+		"226": {
 			"english": "in the daytime",
 			"russian": "днём",
 			"unit": "10",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"224": {
+		"227": {
 			"english": "then, afterward",
 			"russian": "пото́м",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"225": {
+		"228": {
 			"english": "evening",
 			"russian": "ве́чер",
 			"unit": "10",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"226": {
+		"229": {
 			"english": "hello! how do you do?",
 			"russian": "здра́вствуйте",
 			"unit": "10",
 			"topic": "greeting",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"227": {
+		"230": {
 			"english": "both...and",
 			"russian": "и...и",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"228": {
+		"231": {
 			"english": "at night",
 			"russian": "но́чью",
 			"unit": "10",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"229": {
+		"232": {
 			"english": "yesterday",
 			"russian": "вчера́",
 			"unit": "10",
 			"topic": "time",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"230": {
+		"233": {
 			"english": "knew",
 			"russian": "зна́ла",
 			"unit": "10",
 			"topic": "",
 			"gender": "f",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"231": {
+		"234": {
 			"english": "owner, mistress, hostess",
 			"russian": "хозя́йка",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"232": {
+		"235": {
 			"english": "to the hostess (to the owner of the house)",
 			"russian": "хозя́йке до́ма",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"233": {
+		"236": {
 			"english": "to go, to walk",
 			"russian": "идти́",
 			"unit": "10",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"234": {
+		"237": {
 			"english": "home, homeward",
 			"russian": "домо́й",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"235": {
+		"238": {
 			"english": "I hate to go home",
 			"russian": "о́чень не хочу́ идти́ домо́й",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"236": {
+		"239": {
 			"english": "late",
 			"russian": "по́здно",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"237": {
+		"240": {
 			"english": "owner, master, host",
 			"russian": "хозя́ин",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"238": {
+		"241": {
 			"english": "if",
 			"russian": "е́сли",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"239": {
+		"242": {
 			"english": "for a long time",
 			"russian": "до́лго",
 			"unit": "10",
 			"topic": "adverb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"240": {
+		"243": {
 			"english": "you worked",
 			"russian": "вы рабо́тали",
 			"unit": "10",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"241": {
+		"244": {
 			"english": "tomorrow",
 			"russian": "за́втра",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"242": {
+		"245": {
 			"english": "much work",
 			"russian": "мно́го рабо́ты",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"243": {
+		"246": {
 			"english": "better",
 			"russian": "лу́чше",
 			"unit": "10",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"244": {
+		"247": {
 			"english": "to sleep",
 			"russian": "спать",
 			"unit": "10",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"245": {
+		"248": {
 			"english": "where to, whither",
 			"russian": "куда",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"246": {
+		"249": {
 			"english": "where are you going?",
 			"russian": "куда вы идёте?",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"247": {
+		"250": {
 			"english": "Nicholas",
 			"russian": "Николай",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"248": {
+		"251": {
 			"english": "Paul",
 			"russian": "Павел",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"249": {
+		"252": {
 			"english": "How are you?",
 			"russian": "как вы поживаете?",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"250": {
+		"253": {
 			"english": "to get on (I)",
 			"russian": "поживать",
 			"unit": "11",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"251": {
+		"254": {
 			"english": "thanks, thank you",
 			"russian": "спасибо",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"252": {
+		"255": {
 			"english": "park",
 			"russian": "парк",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"253": {
+		"256": {
 			"english": "it is a pity",
 			"russian": "жаль",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"254": {
+		"257": {
 			"english": "it is a great pity, it is too bad",
 			"russian": "очень жаль",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"255": {
+		"258": {
 			"english": "day",
 			"russian": "день",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"256": {
+		"259": {
 			"english": "a beautiful day",
 			"russian": "жороший день",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"257": {
+		"260": {
 			"english": "to walk (for pleasure); to take a walk",
 			"russian": "гулять",
 			"unit": "11",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"258": {
+		"261": {
 			"english": "Olga",
 			"russian": "Ольга",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"259": {
+		"262": {
 			"english": "will be",
 			"russian": "будет",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"260": {
+		"263": {
 			"english": "girl",
 			"russian": "девушка",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"261": {
+		"264": {
 			"english": "of course, certainly",
 			"russian": "конечно",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"262": {
+		"265": {
 			"english": "beauty, a beautiful girl",
 			"russian": "красавица",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"263": {
+		"266": {
 			"english": "good-bye",
 			"russian": "до свидания",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"264": {
+		"267": {
 			"english": "clever, smart",
 			"russian": "умный",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"265": {
+		"268": {
 			"english": "man, person",
 			"russian": "человек",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"266": {
+		"269": {
 			"english": "hello!",
 			"russian": "алло!",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"267": {
+		"270": {
 			"english": "telphone",
 			"russian": "телефон",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"268": {
+		"271": {
 			"english": "who is on the phone?",
 			"russian": "кто у телефона?",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"269": {
+		"272": {
 			"english": "Smirnov",
 			"russian": "Смирнов",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"270": {
+		"273": {
 			"english": "now, right now",
 			"russian": "сейчас",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"271": {
+		"274": {
 			"english": "I shall be",
 			"russian": "буду",
 			"unit": "11",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"272": {
+		"275": {
 			"english": "New York",
 			"russian": "Нью-Йорк",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"273": {
+		"276": {
 			"english": "oh!",
 			"russian": "ах!",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"274": {
+		"277": {
 			"english": "to go (by conveyance), to ride",
 			"russian": "ехать",
 			"unit": "11",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"275": {
+		"278": {
 			"english": "Washington",
 			"russian": "Вашингтон",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"276": {
+		"279": {
 			"english": "how long?",
 			"russian": "как долго?",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"277": {
+		"280": {
 			"english": "perhaps, maybe",
 			"russian": "может быть",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"278": {
+		"281": {
 			"english": "here; even",
 			"russian": "и",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"279": {
+		"282": {
 			"english": "what are you going to do?",
 			"russian": "что вы будете делать?",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"280": {
+		"283": {
 			"english": "please",
 			"russian": "пожалуйста",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"281": {
+		"284": {
 			"english": "do not ask",
 			"russian": "не спрашивайте",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"282": {
+		"285": {
 			"english": "for the time being",
 			"russian": "пока",
 			"unit": "11",
 			"topic": "adverb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"283": {
+		"286": {
 			"english": "as yet, still",
 			"russian": "пока ещё",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"284": {
+		"287": {
 			"english": "secret",
 			"russian": "секрет",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"285": {
+		"288": {
 			"english": "ah!",
 			"russian": "а!",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"286": {
+		"289": {
 			"english": "recently",
 			"russian": "недавно",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"287": {
+		"290": {
 			"english": "was",
 			"russian": "была",
 			"unit": "11",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"288": {
+		"291": {
 			"english": "with her",
 			"russian": "с ней",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"289": {
+		"292": {
 			"english": "to remember",
 			"russian": "помнить",
 			"unit": "11",
 			"topic": "verb",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		},
-		"290": {
+		"293": {
 			"english": "all this",
 			"russian": "всё это",
 			"unit": "11",
 			"topic": "",
 			"gender": "",
 			"case": "",
-			"verbform": ""
+			"requireGender": ""
 		}
 	}
 }

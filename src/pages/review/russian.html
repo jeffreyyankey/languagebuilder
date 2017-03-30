@@ -3,12 +3,12 @@
 		<button ion-button menuToggle>
 			<ion-icon name="menu"></ion-icon>
 		</button>
-		<ion-title>Русский to English</ion-title>
+		<ion-title>Russian to English</ion-title>
 	</ion-navbar>
 </ion-header>
 
 <ion-content>
-	<p padding>Input the Russian word on the left that matches the translated English word on the right.</p>
+	<p padding>Review the Russian words below.</p>
 	<button ion-button block color="primary" (click)="showCheckbox()">Show Checkbox Alert</button>
 	<ion-list>
 		<ion-item *ngFor="let word of words | async" >

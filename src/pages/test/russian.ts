@@ -10,7 +10,7 @@ import { Subject } from 'rxjs/Subject';
 	templateUrl: 'russian.html'
 })
 
-export class RussianTestPage {
+export class EnglishRussianTestPage {
 	rpCheckboxOpen: boolean;
 	unitSubject: Subject<any>;
 	units;

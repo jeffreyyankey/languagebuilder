@@ -4,7 +4,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 import { EnglishRussianReviewPage } from '../pages/review/russian';
-import { EnglishRussianTestPage } from '../pages/test/russian';
+import { EnglishRussianTestPage } from '../pages/test/english-russian';
 
 @Component({
 	templateUrl: 'app.html'

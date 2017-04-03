@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { EnglishRussianReviewPage } from '../review/russian';
-import { EnglishRussianTestPage } from '../test/russian';
+import { EnglishRussianTestPage } from '../test/english-russian';
+
+import { GlobalVars }from '../../providers/global-vars';
 
 
 @Component({
@@ -10,9 +12,16 @@ import { EnglishRussianTestPage } from '../test/russian';
 })
 export class HomePage {
 
-	constructor(public navCtrl: NavController, public navParams: NavParams) {}
+	constructor(
+		public navCtrl: NavController,
+		public navParams: NavParams,
+		public gv: GlobalVars
+	) {
+		this.gv.setAllUnitLength();
+	}
 
 	itemTapped(event, page) {
+		//console.log(this.gv.getAllUnitLength());
 		if (page === 'russian_book_review') {
 			this.navCtrl.push(EnglishRussianReviewPage);
 		}

@@ -19,4 +19,8 @@ export class WordService {
 			}
 		});
 	}
+
+	getUnitLength(): FirebaseListObservable<any> {
+		return this.af.database.list('/words', { preserveSnapshot: true});
+	}
 }

@@ -6,8 +6,8 @@ import { WordService } from '../../providers/word-service';
 import { Subject } from 'rxjs/Subject';
 
 @Component({
-	selector: 'page-russian',
-	templateUrl: 'russian.html'
+	selector: 'page-english-russian',
+	templateUrl: 'english-russian.html'
 })
 
 export class EnglishRussianTestPage {

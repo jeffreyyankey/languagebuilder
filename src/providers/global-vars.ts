@@ -41,8 +41,15 @@ export class GlobalVars {
 		})
 	}
 
-	getAllUnitLength() {
-		return this.unitLength;
+	getAllUnitLength(): string {
+		return this.unitLength.length.toString();
 	}
 
+	getUnitLength(unit:string): string {
+		let unitNumber = this.unitLength.reduce(function(n, val) {
+			return n + (val == unit);
+		}, 0);
+
+		return unitNumber;
+	}
 }

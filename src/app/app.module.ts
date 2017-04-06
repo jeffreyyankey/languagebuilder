@@ -9,6 +9,7 @@ import { WordService } from '../providers/word-service';
 import { HomePage } from '../pages/home/home';
 import { EnglishRussianReviewPage } from '../pages/review/russian';
 import { EnglishRussianTestPage } from '../pages/test/english-russian';
+import { BookModalPage } from '../pages/book-modal/book-modal';
 
 // Import the AF2 Module
 import { AngularFireModule } from 'angularfire2';
@@ -27,7 +28,8 @@ export const firebaseConfig = {
 		MyApp,
 		HomePage,
 		EnglishRussianReviewPage,
-		EnglishRussianTestPage
+		EnglishRussianTestPage,
+		BookModalPage
 	],
 	imports: [
 		IonicModule.forRoot(MyApp),
@@ -38,7 +40,8 @@ export const firebaseConfig = {
 		MyApp,
 		HomePage,
 		EnglishRussianReviewPage,
-		EnglishRussianTestPage
+		EnglishRussianTestPage,
+		BookModalPage
 	],
 	providers: [
 		[GlobalVars],

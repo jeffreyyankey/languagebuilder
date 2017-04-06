@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
-import { AngularFire, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2';
-import { AlertController } from 'ionic-angular';
-import { UnitService } from '../../providers/unit-service';
+import { AngularFire } from 'angularfire2';
+import { AlertController, ModalController } from 'ionic-angular';
+
 import { WordService } from '../../providers/word-service';
 import { Subject } from 'rxjs/Subject';
+
+import { GlobalVars }from '../../providers/global-vars';
+import { BookModalPage } from '../book-modal/book-modal';
 
 @Component({
 	selector: 'page-english-russian',
@@ -13,7 +16,6 @@ import { Subject } from 'rxjs/Subject';
 export class EnglishRussianTestPage {
 	rpCheckboxOpen: boolean;
 	unitSubject: Subject<any>;
-	units;
 
 	words;
 	currentWordNumber:number = 0;
@@ -23,61 +25,15 @@ export class EnglishRussianTestPage {
 	constructor(
 		private af: AngularFire,
 		private ac: AlertController,
-		private us: UnitService,
+		public gv: GlobalVars,
+		public mc: ModalController,
 		private ws: WordService
 	) {
-		us.getAll()
-		.subscribe(data => {
-			this.units = data;
+		let modal = this.mc.create( BookModalPage );
+		modal.present();
+		modal.onDidDismiss(data => {
+			console.log(data);
 		})
-	}
-
-	showCheckbox() {
-		let alert = this.ac.create();
-		alert.setTitle( 'Which Unit(s)?' );
-
-		alert.addInput({
-			type: 'radio',
-			label: 'All',
-			value: 'all',
-			checked: true
-		});
-
-		for( let unit of this.units ) {
-			alert.addInput({
-				type: 'radio',
-				label: unit.title,
-				value: unit.unit,
-				checked: false
-			});
-		}
-
-		alert.addButton( 'Cancel' );
-		alert.addButton({
-			text: 'Okay',
-			handler: data => {
-				this.unitSubject = data;
-				this.rpCheckboxOpen = false;
-				if (data === 'all') {
-					this.ws.getAll()
-					.subscribe( response => {
-						this.words = response;
-						this.shuffle(this.words);
-					})
-				}
-				else {
-					this.ws.getUnit( this.unitSubject )
-					.subscribe( response => {
-						this.words = response;
-						this.shuffle(this.words);
-					})
-				}
-			}
-		});
-
-		alert.present().then(() => {
-			this.rpCheckboxOpen = true;
-		});
 	}
 
 	showCurrentAnswer() {

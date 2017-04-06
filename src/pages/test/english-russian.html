@@ -9,13 +9,6 @@
 
 <ion-content padding>
 
-	<div *ngIf="!words && showAnswer === false && showFinal === false">
-		<p>Select the unit and number of words to test.</p>
-		<button ion-button block color="primary" (click)="showCheckbox()">
-			<ion-label text-center>Show Checkbox Alert</ion-label>
-		</button>
-	</div>
-
 	<div *ngIf="words && showAnswer === false && showFinal === false">
 		<p>Translate the English word to Russian.</p>
 		<ion-item>

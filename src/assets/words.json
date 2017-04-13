@@ -115,7 +115,7 @@
 			"russian": "студе́нты",
 			"unit": "02",
 			"topic": "person",
-			"gender": "pl",
+			"gender": "",
 			"case": "",
 			"requireGender": ""
 		},
@@ -123,16 +123,16 @@
 			"english": "about",
 			"russian": "о",
 			"unit": "02",
-			"topic": "preposition",
+			"topic": "prepositional",
 			"gender": "",
-			"case": "preposition",
+			"case": "prepositional",
 			"requireGender": ""
 		},
 		"10": {
 			"english": "against",
 			"russian": "о",
 			"unit": "02",
-			"topic": "preposition",
+			"topic": "prepositional",
 			"gender": "",
 			"case": "accusative",
 			"requireGender": ""
@@ -143,7 +143,7 @@
 			"unit": "02",
 			"topic": "exclamation",
 			"gender": "",
-			"case": "",
+			"case": "nominative",
 			"requireGender": ""
 		},
 		"12": {
@@ -402,7 +402,7 @@
 			"english": "in",
 			"russian": "в",
 			"unit": "03",
-			"topic": "prep",
+			"topic": "prepositional",
 			"gender": "",
 			"case": "prepositional",
 			"requireGender": ""
@@ -411,7 +411,7 @@
 			"english": "on, here (coll), take it",
 			"russian": "на",
 			"unit": "03",
-			"topic": "prep",
+			"topic": "prepositional",
 			"gender": "",
 			"case": "prepositional",
 			"requireGender": ""
@@ -679,14 +679,32 @@
 		},
 		"71": {
 			"english": "beautiful",
+			"russian": "краси́ый",
+			"unit": "05",
+			"topic": "adj",
+			"gender": "m",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"72": {
+			"english": "beautiful",
 			"russian": "краси́вая",
 			"unit": "05",
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"72": {
+		"73": {
+			"english": "beautiful",
+			"russian": "краси́вое",
+			"unit": "05",
+			"topic": "adj",
+			"gender": "n",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"74": {
 			"english": "my",
 			"russian": "мой",
 			"unit": "05",
@@ -695,7 +713,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"73": {
+		"75": {
 			"english": "my",
 			"russian": "моя́",
 			"unit": "05",
@@ -704,7 +722,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"74": {
+		"76": {
 			"english": "new",
 			"russian": "но́вое",
 			"unit": "05",
@@ -713,7 +731,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"75": {
+		"77": {
 			"english": "new",
 			"russian": "но́вый",
 			"unit": "05",
@@ -722,7 +740,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"76": {
+		"78": {
 			"english": "rapidly, fast",
 			"russian": "быстро",
 			"unit": "05",
@@ -731,7 +749,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"77": {
+		"79": {
 			"english": "slowly",
 			"russian": "ме́дленно",
 			"unit": "05",
@@ -740,7 +758,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"78": {
+		"80": {
 			"english": "badly, poorly",
 			"russian": "пло́хо",
 			"unit": "05",
@@ -749,7 +767,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"79": {
+		"81": {
 			"english": "Russian, in Russian",
 			"russian": "по-ру́сски",
 			"unit": "05",
@@ -758,7 +776,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"80": {
+		"82": {
 			"english": "already",
 			"russian": "уже́",
 			"unit": "05",
@@ -767,7 +785,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"81": {
+		"83": {
 			"english": "door",
 			"russian": "дверь",
 			"unit": "05",
@@ -776,7 +794,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"82": {
+		"84": {
 			"english": "room",
 			"russian": "ко́мната",
 			"unit": "05",
@@ -785,7 +803,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"83": {
+		"85": {
 			"english": "window",
 			"russian": "окно́",
 			"unit": "05",
@@ -794,7 +812,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"84": {
+		"86": {
 			"english": "paper",
 			"russian": "бума́га",
 			"unit": "05",
@@ -803,7 +821,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"85": {
+		"87": {
 			"english": "lamp",
 			"russian": "ла́мпа",
 			"unit": "05",
@@ -812,7 +830,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"86": {
+		"88": {
 			"english": "chalk",
 			"russian": "мел",
 			"unit": "05",
@@ -821,7 +839,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"87": {
+		"89": {
 			"english": "with chalk",
 			"russian": "ме́лом",
 			"unit": "05",
@@ -830,7 +848,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"88": {
+		"90": {
 			"english": "how",
 			"russian": "как",
 			"unit": "05",
@@ -839,7 +857,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"89": {
+		"91": {
 			"english": "with what",
 			"russian": "чем",
 			"unit": "05",
@@ -848,7 +866,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"90": {
+		"92": {
 			"english": "my",
 			"russian": "моё",
 			"unit": "05",
@@ -857,7 +875,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"91": {
+		"93": {
 			"english": "yours",
 			"russian": "ваш",
 			"unit": "05",
@@ -866,7 +884,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"92": {
+		"94": {
 			"english": "yours",
 			"russian": "ва́ша",
 			"unit": "05",
@@ -875,7 +893,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"93": {
+		"95": {
 			"english": "yours",
 			"russian": "ва́ше",
 			"unit": "05",
@@ -884,7 +902,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"94": {
+		"96": {
 			"english": "always",
 			"russian": "всегда́",
 			"unit": "05",
@@ -893,7 +911,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"95": {
+		"97": {
 			"english": "English, in English",
 			"russian": "по-англи́йски",
 			"unit": "05",
@@ -902,7 +920,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"96": {
+		"98": {
 			"english": "only",
 			"russian": "то́лько",
 			"unit": "05",
@@ -911,7 +929,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"97": {
+		"99": {
 			"english": "bad, poor",
 			"russian": "плоха́я",
 			"unit": "07",
@@ -920,7 +938,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"98": {
+		"100": {
 			"english": "bad, poor",
 			"russian": "плохо́е",
 			"unit": "07",
@@ -929,7 +947,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"99": {
+		"101": {
 			"english": "bad, poor",
 			"russian": "плохо́й",
 			"unit": "07",
@@ -938,7 +956,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"100": {
+		"102": {
 			"english": "Russian",
 			"russian": "русский",
 			"unit": "07",
@@ -947,7 +965,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"101": {
+		"103": {
 			"english": "good",
 			"russian": "хоро́шая",
 			"unit": "07",
@@ -956,7 +974,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"102": {
+		"104": {
 			"english": "good",
 			"russian": "хоро́шее",
 			"unit": "07",
@@ -965,7 +983,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"103": {
+		"105": {
 			"english": "good",
 			"russian": "хоро́ший",
 			"unit": "07",
@@ -974,7 +992,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"104": {
+		"106": {
 			"english": "why",
 			"russian": "почему́",
 			"unit": "07",
@@ -983,7 +1001,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"105": {
+		"107": {
 			"english": "USA",
 			"russian": "Аме́рика",
 			"unit": "07",
@@ -992,7 +1010,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"106": {
+		"108": {
 			"english": "Miss, Mrs",
 			"russian": "госпожа́",
 			"unit": "07",
@@ -1001,7 +1019,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"107": {
+		"109": {
 			"english": "pupil",
 			"russian": "учени́к",
 			"unit": "07",
@@ -1010,7 +1028,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"108": {
+		"110": {
 			"english": "pupil",
 			"russian": "учени́ца",
 			"unit": "07",
@@ -1019,7 +1037,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"109": {
+		"111": {
 			"english": "teacher",
 			"russian": "учи́тель",
 			"unit": "07",
@@ -1028,7 +1046,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"110": {
+		"112": {
 			"english": "teacher",
 			"russian": "учи́тельница",
 			"unit": "07",
@@ -1037,16 +1055,16 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"111": {
+		"113": {
 			"english": "near",
 			"russian": "о́коло",
 			"unit": "07",
-			"topic": "prep",
+			"topic": "prepositional",
 			"gender": "",
 			"case": "genitive",
 			"requireGender": ""
 		},
-		"112": {
+		"114": {
 			"english": "I do not yet speak",
 			"russian": "ешё не говорю́",
 			"unit": "07",
@@ -1055,7 +1073,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"113": {
+		"115": {
 			"english": "he reads nothing",
 			"russian": "нечего́ не чита́ет",
 			"unit": "07",
@@ -1064,7 +1082,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"114": {
+		"116": {
 			"english": "He has been only one year in the USA",
 			"russian": "он то́лько оди́н год в Аме́рике",
 			"unit": "07",
@@ -1073,7 +1091,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"115": {
+		"117": {
 			"english": "he only talks and talks",
 			"russian": "то́лько говори́т и говори́т",
 			"unit": "07",
@@ -1082,7 +1100,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"116": {
+		"118": {
 			"english": "Ivanova",
 			"russian": "Ивано́ва",
 			"unit": "07",
@@ -1091,7 +1109,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"117": {
+		"119": {
 			"english": "year",
 			"russian": "год",
 			"unit": "07",
@@ -1100,7 +1118,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"118": {
+		"120": {
 			"english": "now",
 			"russian": "тепе́рь",
 			"unit": "07",
@@ -1109,7 +1127,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"119": {
+		"121": {
 			"english": "little (not much)",
 			"russian": "ма́ло",
 			"unit": "07",
@@ -1118,7 +1136,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"120": {
+		"122": {
 			"english": "nothing",
 			"russian": "ничего́",
 			"unit": "07",
@@ -1127,7 +1145,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"121": {
+		"123": {
 			"english": "because",
 			"russian": "потому́ что",
 			"unit": "07",
@@ -1136,7 +1154,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"122": {
+		"124": {
 			"english": "also, in addition",
 			"russian": "та́кже",
 			"unit": "07",
@@ -1145,7 +1163,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"123": {
+		"125": {
 			"english": "Boris",
 			"russian": "Борис",
 			"unit": "08",
@@ -1154,7 +1172,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"124": {
+		"126": {
 			"english": "brother",
 			"russian": "брат",
 			"unit": "08",
@@ -1163,34 +1181,34 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"125": {
+		"127": {
 			"english": "all, everything",
 			"russian": "весь",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"126": {
+		"128": {
 			"english": "all, everything",
 			"russian": "всё",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "n",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"127": {
+		"129": {
 			"english": "all, everything",
 			"russian": "вся",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"128": {
+		"130": {
 			"english": "all day",
 			"russian": "весь день",
 			"unit": "08",
@@ -1199,7 +1217,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"129": {
+		"131": {
 			"english": "in the evening",
 			"russian": "вечером",
 			"unit": "08",
@@ -1208,7 +1226,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"130": {
+		"132": {
 			"english": "to give",
 			"russian": "давать",
 			"unit": "08",
@@ -1217,7 +1235,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"131": {
+		"133": {
 			"english": "to do",
 			"russian": "делать",
 			"unit": "08",
@@ -1226,7 +1244,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"132": {
+		"134": {
 			"english": "day",
 			"russian": "день",
 			"unit": "08",
@@ -1235,7 +1253,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"133": {
+		"135": {
 			"english": "divan (couch)",
 			"russian": "диван",
 			"unit": "08",
@@ -1244,7 +1262,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"134": {
+		"136": {
 			"english": "doctor",
 			"russian": "доктор",
 			"unit": "08",
@@ -1253,7 +1271,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"135": {
+		"137": {
 			"english": "to play",
 			"russian": "играть",
 			"unit": "08",
@@ -1262,7 +1280,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"136": {
+		"138": {
 			"english": "to love",
 			"russian": "любить",
 			"unit": "08",
@@ -1271,7 +1289,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"137": {
+		"139": {
 			"english": "small",
 			"russian": "маленькая",
 			"unit": "08",
@@ -1280,7 +1298,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"138": {
+		"140": {
 			"english": "small",
 			"russian": "маленький",
 			"unit": "08",
@@ -1289,7 +1307,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"139": {
+		"141": {
 			"english": "small",
 			"russian": "маленькое",
 			"unit": "08",
@@ -1298,7 +1316,7 @@
 			"case": "",
 			"requireGender": "TRUE"
 		},
-		"140": {
+		"142": {
 			"english": "mother",
 			"russian": "мать",
 			"unit": "08",
@@ -1307,7 +1325,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"141": {
+		"143": {
 			"english": "Masha",
 			"russian": "Маша",
 			"unit": "08",
@@ -1316,34 +1334,34 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"142": {
+		"144": {
 			"english": "our",
 			"russian": "наш",
 			"unit": "08",
 			"topic": "",
 			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"143": {
+		"145": {
 			"english": "our",
 			"russian": "наша",
 			"unit": "08",
 			"topic": "",
 			"gender": "f",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"144": {
+		"146": {
 			"english": "our",
 			"russian": "наше",
 			"unit": "08",
 			"topic": "",
 			"gender": "n",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"145": {
+		"147": {
 			"english": "to rest",
 			"russian": "отдыхать",
 			"unit": "08",
@@ -1352,7 +1370,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"146": {
+		"148": {
 			"english": "father",
 			"russian": "отец",
 			"unit": "08",
@@ -1361,16 +1379,16 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"147": {
+		"149": {
 			"english": "with",
 			"russian": "с",
 			"unit": "08",
-			"topic": "preposition",
+			"topic": "prepositional",
 			"gender": "",
 			"case": "",
 			"requireGender": ""
 		},
-		"148": {
+		"150": {
 			"english": "with the dog",
 			"russian": "с собака",
 			"unit": "08",
@@ -1379,7 +1397,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"149": {
+		"151": {
 			"english": "family",
 			"russian": "семья",
 			"unit": "08",
@@ -1388,7 +1406,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"150": {
+		"152": {
 			"english": "sister",
 			"russian": "сестра",
 			"unit": "08",
@@ -1397,7 +1415,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"151": {
+		"153": {
 			"english": "to sit",
 			"russian": "сидеть",
 			"unit": "08",
@@ -1406,16 +1424,16 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"152": {
+		"154": {
 			"english": "dog",
 			"russian": "соба́ка",
 			"unit": "08",
 			"topic": "animal",
 			"gender": "",
-			"case": "nominative",
+			"case": "",
 			"requireGender": ""
 		},
-		"153": {
+		"155": {
 			"english": "to the dog",
 			"russian": "соба́ке",
 			"unit": "08",
@@ -1424,7 +1442,7 @@
 			"case": "dative",
 			"requireGender": ""
 		},
-		"154": {
+		"156": {
 			"english": "in the morning",
 			"russian": "утром",
 			"unit": "08",
@@ -1433,7 +1451,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"155": {
+		"157": {
 			"english": "chocalate",
 			"russian": "шокалат",
 			"unit": "08",
@@ -1442,7 +1460,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"156": {
+		"158": {
 			"english": "chocalates",
 			"russian": "шоколад",
 			"unit": "08",
@@ -1451,7 +1469,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"157": {
+		"159": {
 			"english": "I don't like to work",
 			"russian": "я не люблю работать",
 			"unit": "08",
@@ -1460,25 +1478,25 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"158": {
+		"160": {
 			"english": "soft",
 			"russian": "мякий",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"159": {
+		"161": {
 			"english": "hard",
 			"russian": "твёрдый",
 			"unit": "08",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"160": {
+		"162": {
 			"english": "to live, to dwell",
 			"russian": "жить",
 			"unit": "08",
@@ -1487,7 +1505,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"161": {
+		"163": {
 			"english": "village, country",
 			"russian": "дере́вня",
 			"unit": "08",
@@ -1496,7 +1514,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"162": {
+		"164": {
 			"english": "town",
 			"russian": "го́род",
 			"unit": "08",
@@ -1505,7 +1523,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"163": {
+		"165": {
 			"english": "quiet",
 			"russian": "ти́хо",
 			"unit": "08",
@@ -1514,7 +1532,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"164": {
+		"166": {
 			"english": "after",
 			"russian": "по́сле",
 			"unit": "08",
@@ -1523,7 +1541,7 @@
 			"case": "genitive",
 			"requireGender": ""
 		},
-		"165": {
+		"167": {
 			"english": "work",
 			"russian": "рабо́та",
 			"unit": "08",
@@ -1532,7 +1550,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"166": {
+		"168": {
 			"english": "store",
 			"russian": "магази́н",
 			"unit": "08",
@@ -1541,7 +1559,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"167": {
+		"169": {
 			"english": "when",
 			"russian": "когда́",
 			"unit": "08",
@@ -1550,7 +1568,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"168": {
+		"170": {
 			"english": "nowhere",
 			"russian": "нигде́",
 			"unit": "08",
@@ -1559,7 +1577,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"169": {
+		"171": {
 			"english": "she works nowhere, she does not work anywhere",
 			"russian": "она́ нигде́ не рабо́тает",
 			"unit": "08",
@@ -1568,7 +1586,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"170": {
+		"172": {
 			"english": "never",
 			"russian": "никогда́",
 			"unit": "08",
@@ -1577,7 +1595,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"171": {
+		"173": {
 			"english": "to stay home",
 			"russian": "сиде́ть до́ма",
 			"unit": "08",
@@ -1586,7 +1604,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"172": {
+		"174": {
 			"english": "(emphatic) then, but",
 			"russian": "же",
 			"unit": "08",
@@ -1595,7 +1613,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"173": {
+		"175": {
 			"english": "what then",
 			"russian": "что же",
 			"unit": "08",
@@ -1604,7 +1622,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"174": {
+		"176": {
 			"english": "to prefer",
 			"russian": "предпочита́ть",
 			"unit": "09",
@@ -1613,7 +1631,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"175": {
+		"177": {
 			"english": "by, at",
 			"russian": "у",
 			"unit": "09",
@@ -1622,7 +1640,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"176": {
+		"178": {
 			"english": "I have (lit. by me)",
 			"russian": "у меня́",
 			"unit": "09",
@@ -1631,7 +1649,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"177": {
+		"179": {
 			"english": "I have, I do have (lit. by me there is)",
 			"russian": "у меня́ есть",
 			"unit": "09",
@@ -1640,16 +1658,34 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"178": {
+		"180": {
 			"english": "unattractive, ugly",
-			"russian": "некраси́вый, -ая, -ое",
+			"russian": "некраси́вый",
 			"unit": "09",
 			"topic": "",
-			"gender": "",
+			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"179": {
+		"181": {
+			"english": "unattractive, ugly",
+			"russian": "некраси́вая",
+			"unit": "09",
+			"topic": "",
+			"gender": "f",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"182": {
+			"english": "unattractive, ugly",
+			"russian": "некраси́вое",
+			"unit": "09",
+			"topic": "",
+			"gender": "n",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"183": {
 			"english": "floor",
 			"russian": "пол",
 			"unit": "09",
@@ -1658,7 +1694,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"180": {
+		"184": {
 			"english": "ceiling",
 			"russian": "потоло́к",
 			"unit": "09",
@@ -1667,79 +1703,79 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"181": {
+		"185": {
 			"english": "old",
 			"russian": "ста́рый",
 			"unit": "09",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"182": {
+		"186": {
 			"english": "old",
 			"russian": "ста́рая",
 			"unit": "10",
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"183": {
+		"187": {
 			"english": "old",
 			"russian": "ста́рое",
 			"unit": "11",
 			"topic": "adj",
 			"gender": "n",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"184": {
+		"188": {
 			"english": "big",
 			"russian": "большо́й",
 			"unit": "09",
 			"topic": "adj",
 			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"185": {
+		"189": {
 			"english": "big",
 			"russian": "больша́я",
 			"unit": "10",
 			"topic": "adj",
 			"gender": "f",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"186": {
+		"190": {
 			"english": "big",
 			"russian": "большо́е",
 			"unit": "11",
 			"topic": "adj",
 			"gender": "n",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"187": {
+		"191": {
 			"english": "two",
 			"russian": "два",
 			"unit": "09",
 			"topic": "number",
 			"gender": "m, n",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"188": {
+		"192": {
 			"english": "armchair",
 			"russian": "кре́сло",
 			"unit": "09",
 			"topic": "furniture",
 			"gender": "n",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"189": {
+		"193": {
 			"english": "three",
 			"russian": "три",
 			"unit": "09",
@@ -1748,7 +1784,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"190": {
+		"194": {
 			"english": "on the floor",
 			"russian": "на полу́",
 			"unit": "09",
@@ -1757,7 +1793,7 @@
 			"case": "prepositional",
 			"requireGender": ""
 		},
-		"191": {
+		"195": {
 			"english": "to want, wish",
 			"russian": "хоте́ть",
 			"unit": "09",
@@ -1766,7 +1802,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"192": {
+		"196": {
 			"english": "father",
 			"russian": "оте́ц",
 			"unit": "09",
@@ -1775,7 +1811,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"193": {
+		"197": {
 			"english": "father has",
 			"russian": "у отца́",
 			"unit": "09",
@@ -1784,7 +1820,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"194": {
+		"198": {
 			"english": "house",
 			"russian": "дом",
 			"unit": "09",
@@ -1793,7 +1829,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"195": {
+		"199": {
 			"english": "to be able to",
 			"russian": "мочь",
 			"unit": "09",
@@ -1802,7 +1838,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"196": {
+		"200": {
 			"english": "Katya",
 			"russian": "Ка́тя",
 			"unit": "09",
@@ -1811,7 +1847,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"197": {
+		"201": {
 			"english": "her",
 			"russian": "её",
 			"unit": "09",
@@ -1820,7 +1856,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"198": {
+		"202": {
 			"english": "husband",
 			"russian": "муж",
 			"unit": "09",
@@ -1829,7 +1865,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"199": {
+		"203": {
 			"english": "Petya",
 			"russian": "Пе́тя",
 			"unit": "09",
@@ -1838,7 +1874,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"200": {
+		"204": {
 			"english": "Fedya",
 			"russian": "Фе́дя",
 			"unit": "09",
@@ -1847,7 +1883,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"201": {
+		"205": {
 			"english": "his",
 			"russian": "его́",
 			"unit": "09",
@@ -1856,7 +1892,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"202": {
+		"206": {
 			"english": "wife",
 			"russian": "жена́",
 			"unit": "09",
@@ -1865,7 +1901,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"203": {
+		"207": {
 			"english": "Nadya",
 			"russian": "На́дя",
 			"unit": "09",
@@ -1874,7 +1910,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"204": {
+		"208": {
 			"english": "uncle",
 			"russian": "дя́дя",
 			"unit": "09",
@@ -1883,16 +1919,16 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"205": {
+		"209": {
 			"english": "Vanya",
 			"russian": "Ва́ня",
 			"unit": "09",
 			"topic": "",
-			"gender": "",
+			"gender": "m",
 			"case": "",
 			"requireGender": ""
 		},
-		"206": {
+		"210": {
 			"english": "aunt",
 			"russian": "тётя",
 			"unit": "09",
@@ -1901,7 +1937,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"207": {
+		"211": {
 			"english": "Tanya",
 			"russian": "Та́ня",
 			"unit": "09",
@@ -1910,7 +1946,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"208": {
+		"212": {
 			"english": "grandfather",
 			"russian": "де́душка",
 			"unit": "09",
@@ -1919,7 +1955,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"209": {
+		"213": {
 			"english": "grandmother",
 			"russian": "ба́бушка",
 			"unit": "09",
@@ -1928,7 +1964,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"210": {
+		"214": {
 			"english": "we have, at our house",
 			"russian": "у нас",
 			"unit": "09",
@@ -1937,7 +1973,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"211": {
+		"215": {
 			"english": "everybody",
 			"russian": "все",
 			"unit": "09",
@@ -1946,7 +1982,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"212": {
+		"216": {
 			"english": "loudly",
 			"russian": "гро́мко",
 			"unit": "09",
@@ -1955,7 +1991,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"213": {
+		"217": {
 			"english": "at his house in the village",
 			"russian": "у него́ в дере́вне",
 			"unit": "09",
@@ -1964,7 +2000,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"214": {
+		"218": {
 			"english": "lesson",
 			"russian": "уро́к",
 			"unit": "10",
@@ -1973,7 +2009,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"215": {
+		"219": {
 			"english": "to study",
 			"russian": "изуча́ть",
 			"unit": "10",
@@ -1982,7 +2018,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"216": {
+		"220": {
 			"english": "language",
 			"russian": "язы́к",
 			"unit": "10",
@@ -1991,7 +2027,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"217": {
+		"221": {
 			"english": "Russian language",
 			"russian": "ру́сский язы́к",
 			"unit": "10",
@@ -2000,7 +2036,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"218": {
+		"222": {
 			"english": "to ask (questions)",
 			"russian": "спра́шивать",
 			"unit": "10",
@@ -2009,7 +2045,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"219": {
+		"223": {
 			"english": "to answer",
 			"russian": "отвеча́ть",
 			"unit": "10",
@@ -2018,16 +2054,34 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"220": {
+		"224": {
 			"english": "interesting",
-			"russian": "интере́сный , -ая, -ое",
+			"russian": "интере́сный",
 			"unit": "10",
 			"topic": "adjective",
-			"gender": "",
+			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"221": {
+		"225": {
+			"english": "interesting",
+			"russian": "интере́сная",
+			"unit": "10",
+			"topic": "adjective",
+			"gender": "f",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"226": {
+			"english": "interesting",
+			"russian": "интере́сное",
+			"unit": "10",
+			"topic": "adjective",
+			"gender": "n",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"227": {
 			"english": "Ivan",
 			"russian": "Ива́на",
 			"unit": "10",
@@ -2036,7 +2090,7 @@
 			"case": "accusative",
 			"requireGender": ""
 		},
-		"222": {
+		"228": {
 			"english": "one says, people say",
 			"russian": "говоря́т",
 			"unit": "10",
@@ -2045,16 +2099,34 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"223": {
+		"229": {
 			"english": "good, kind",
-			"russian": "до́брый , -ая, -ое",
+			"russian": "до́брый",
 			"unit": "10",
-			"topic": "adj",
-			"gender": "m, f, n",
+			"topic": "adjective",
+			"gender": "m",
 			"case": "",
-			"requireGender": ""
+			"requireGender": "TRUE"
 		},
-		"224": {
+		"230": {
+			"english": "good, kind",
+			"russian": "до́брая",
+			"unit": "10",
+			"topic": "adjective",
+			"gender": "f",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"231": {
+			"english": "good, kind",
+			"russian": "до́брое",
+			"unit": "10",
+			"topic": "adjective",
+			"gender": "n",
+			"case": "",
+			"requireGender": "TRUE"
+		},
+		"232": {
 			"english": "morning",
 			"russian": "у́тро",
 			"unit": "10",
@@ -2063,7 +2135,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"225": {
+		"233": {
 			"english": "good morning",
 			"russian": "до́брое у́тро",
 			"unit": "10",
@@ -2072,7 +2144,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"226": {
+		"234": {
 			"english": "in the daytime",
 			"russian": "днём",
 			"unit": "10",
@@ -2081,7 +2153,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"227": {
+		"235": {
 			"english": "then, afterward",
 			"russian": "пото́м",
 			"unit": "10",
@@ -2090,7 +2162,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"228": {
+		"236": {
 			"english": "evening",
 			"russian": "ве́чер",
 			"unit": "10",
@@ -2099,7 +2171,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"229": {
+		"237": {
 			"english": "hello! how do you do?",
 			"russian": "здра́вствуйте",
 			"unit": "10",
@@ -2108,7 +2180,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"230": {
+		"238": {
 			"english": "both...and",
 			"russian": "и...и",
 			"unit": "10",
@@ -2117,7 +2189,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"231": {
+		"239": {
 			"english": "at night",
 			"russian": "но́чью",
 			"unit": "10",
@@ -2126,7 +2198,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"232": {
+		"240": {
 			"english": "yesterday",
 			"russian": "вчера́",
 			"unit": "10",
@@ -2135,7 +2207,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"233": {
+		"241": {
 			"english": "knew",
 			"russian": "зна́ла",
 			"unit": "10",
@@ -2144,7 +2216,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"234": {
+		"242": {
 			"english": "owner, mistress, hostess",
 			"russian": "хозя́йка",
 			"unit": "10",
@@ -2153,7 +2225,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"235": {
+		"243": {
 			"english": "to the hostess (to the owner of the house)",
 			"russian": "хозя́йке до́ма",
 			"unit": "10",
@@ -2162,7 +2234,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"236": {
+		"244": {
 			"english": "to go, to walk",
 			"russian": "идти́",
 			"unit": "10",
@@ -2171,7 +2243,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"237": {
+		"245": {
 			"english": "home, homeward",
 			"russian": "домо́й",
 			"unit": "10",
@@ -2180,7 +2252,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"238": {
+		"246": {
 			"english": "I hate to go home",
 			"russian": "о́чень не хочу́ идти́ домо́й",
 			"unit": "10",
@@ -2189,7 +2261,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"239": {
+		"247": {
 			"english": "late",
 			"russian": "по́здно",
 			"unit": "10",
@@ -2198,7 +2270,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"240": {
+		"248": {
 			"english": "owner, master, host",
 			"russian": "хозя́ин",
 			"unit": "10",
@@ -2207,7 +2279,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"241": {
+		"249": {
 			"english": "if",
 			"russian": "е́сли",
 			"unit": "10",
@@ -2216,7 +2288,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"242": {
+		"250": {
 			"english": "for a long time",
 			"russian": "до́лго",
 			"unit": "10",
@@ -2225,7 +2297,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"243": {
+		"251": {
 			"english": "you worked",
 			"russian": "вы рабо́тали",
 			"unit": "10",
@@ -2234,7 +2306,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"244": {
+		"252": {
 			"english": "tomorrow",
 			"russian": "за́втра",
 			"unit": "10",
@@ -2243,7 +2315,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"245": {
+		"253": {
 			"english": "much work",
 			"russian": "мно́го рабо́ты",
 			"unit": "10",
@@ -2252,7 +2324,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"246": {
+		"254": {
 			"english": "better",
 			"russian": "лу́чше",
 			"unit": "10",
@@ -2261,7 +2333,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"247": {
+		"255": {
 			"english": "to sleep",
 			"russian": "спать",
 			"unit": "10",
@@ -2270,7 +2342,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"248": {
+		"256": {
 			"english": "where to, whither",
 			"russian": "куда",
 			"unit": "11",
@@ -2279,7 +2351,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"249": {
+		"257": {
 			"english": "where are you going?",
 			"russian": "куда вы идёте?",
 			"unit": "11",
@@ -2288,7 +2360,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"250": {
+		"258": {
 			"english": "Nicholas",
 			"russian": "Николай",
 			"unit": "11",
@@ -2297,7 +2369,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"251": {
+		"259": {
 			"english": "Paul",
 			"russian": "Павел",
 			"unit": "11",
@@ -2306,7 +2378,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"252": {
+		"260": {
 			"english": "How are you?",
 			"russian": "как вы поживаете?",
 			"unit": "11",
@@ -2315,7 +2387,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"253": {
+		"261": {
 			"english": "to get on (I)",
 			"russian": "поживать",
 			"unit": "11",
@@ -2324,7 +2396,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"254": {
+		"262": {
 			"english": "thanks, thank you",
 			"russian": "спасибо",
 			"unit": "11",
@@ -2333,7 +2405,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"255": {
+		"263": {
 			"english": "park",
 			"russian": "парк",
 			"unit": "11",
@@ -2342,7 +2414,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"256": {
+		"264": {
 			"english": "it is a pity",
 			"russian": "жаль",
 			"unit": "11",
@@ -2351,7 +2423,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"257": {
+		"265": {
 			"english": "it is a great pity, it is too bad",
 			"russian": "очень жаль",
 			"unit": "11",
@@ -2360,7 +2432,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"258": {
+		"266": {
 			"english": "day",
 			"russian": "день",
 			"unit": "11",
@@ -2369,7 +2441,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"259": {
+		"267": {
 			"english": "a beautiful day",
 			"russian": "жороший день",
 			"unit": "11",
@@ -2378,7 +2450,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"260": {
+		"268": {
 			"english": "to walk (for pleasure); to take a walk",
 			"russian": "гулять",
 			"unit": "11",
@@ -2387,7 +2459,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"261": {
+		"269": {
 			"english": "Olga",
 			"russian": "Ольга",
 			"unit": "11",
@@ -2396,7 +2468,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"262": {
+		"270": {
 			"english": "will be",
 			"russian": "будет",
 			"unit": "11",
@@ -2405,7 +2477,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"263": {
+		"271": {
 			"english": "girl",
 			"russian": "девушка",
 			"unit": "11",
@@ -2414,7 +2486,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"264": {
+		"272": {
 			"english": "of course, certainly",
 			"russian": "конечно",
 			"unit": "11",
@@ -2423,7 +2495,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"265": {
+		"273": {
 			"english": "beauty, a beautiful girl",
 			"russian": "красавица",
 			"unit": "11",
@@ -2432,7 +2504,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"266": {
+		"274": {
 			"english": "good-bye",
 			"russian": "до свидания",
 			"unit": "11",
@@ -2441,7 +2513,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"267": {
+		"275": {
 			"english": "clever, smart",
 			"russian": "умный",
 			"unit": "11",
@@ -2450,7 +2522,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"268": {
+		"276": {
 			"english": "man, person",
 			"russian": "человек",
 			"unit": "11",
@@ -2459,7 +2531,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"269": {
+		"277": {
 			"english": "hello!",
 			"russian": "алло!",
 			"unit": "11",
@@ -2468,7 +2540,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"270": {
+		"278": {
 			"english": "telphone",
 			"russian": "телефон",
 			"unit": "11",
@@ -2477,7 +2549,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"271": {
+		"279": {
 			"english": "who is on the phone?",
 			"russian": "кто у телефона?",
 			"unit": "11",
@@ -2486,7 +2558,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"272": {
+		"280": {
 			"english": "Smirnov",
 			"russian": "Смирнов",
 			"unit": "11",
@@ -2495,7 +2567,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"273": {
+		"281": {
 			"english": "now, right now",
 			"russian": "сейчас",
 			"unit": "11",
@@ -2504,7 +2576,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"274": {
+		"282": {
 			"english": "I shall be",
 			"russian": "буду",
 			"unit": "11",
@@ -2513,7 +2585,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"275": {
+		"283": {
 			"english": "New York",
 			"russian": "Нью-Йорк",
 			"unit": "11",
@@ -2522,7 +2594,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"276": {
+		"284": {
 			"english": "oh!",
 			"russian": "ах!",
 			"unit": "11",
@@ -2531,7 +2603,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"277": {
+		"285": {
 			"english": "to go (by conveyance), to ride",
 			"russian": "ехать",
 			"unit": "11",
@@ -2540,7 +2612,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"278": {
+		"286": {
 			"english": "Washington",
 			"russian": "Вашингтон",
 			"unit": "11",
@@ -2549,7 +2621,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"279": {
+		"287": {
 			"english": "how long?",
 			"russian": "как долго?",
 			"unit": "11",
@@ -2558,7 +2630,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"280": {
+		"288": {
 			"english": "perhaps, maybe",
 			"russian": "может быть",
 			"unit": "11",
@@ -2567,7 +2639,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"281": {
+		"289": {
 			"english": "here; even",
 			"russian": "и",
 			"unit": "11",
@@ -2576,7 +2648,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"282": {
+		"290": {
 			"english": "what are you going to do?",
 			"russian": "что вы будете делать?",
 			"unit": "11",
@@ -2585,7 +2657,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"283": {
+		"291": {
 			"english": "please",
 			"russian": "пожалуйста",
 			"unit": "11",
@@ -2594,7 +2666,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"284": {
+		"292": {
 			"english": "do not ask",
 			"russian": "не спрашивайте",
 			"unit": "11",
@@ -2603,7 +2675,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"285": {
+		"293": {
 			"english": "for the time being",
 			"russian": "пока",
 			"unit": "11",
@@ -2612,7 +2684,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"286": {
+		"294": {
 			"english": "as yet, still",
 			"russian": "пока ещё",
 			"unit": "11",
@@ -2621,7 +2693,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"287": {
+		"295": {
 			"english": "secret",
 			"russian": "секрет",
 			"unit": "11",
@@ -2630,7 +2702,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"288": {
+		"296": {
 			"english": "ah!",
 			"russian": "а!",
 			"unit": "11",
@@ -2639,7 +2711,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"289": {
+		"297": {
 			"english": "recently",
 			"russian": "недавно",
 			"unit": "11",
@@ -2648,7 +2720,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"290": {
+		"298": {
 			"english": "was",
 			"russian": "была",
 			"unit": "11",
@@ -2657,7 +2729,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"291": {
+		"299": {
 			"english": "with her",
 			"russian": "с ней",
 			"unit": "11",
@@ -2666,7 +2738,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"292": {
+		"300": {
 			"english": "to remember",
 			"russian": "помнить",
 			"unit": "11",
@@ -2675,7 +2747,7 @@
 			"case": "",
 			"requireGender": ""
 		},
-		"293": {
+		"301": {
 			"english": "all this",
 			"russian": "всё это",
 			"unit": "11",

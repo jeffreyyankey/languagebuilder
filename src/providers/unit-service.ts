@@ -1,6 +1,5 @@
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs/Subject';
 
 @Injectable()
 export class UnitService {

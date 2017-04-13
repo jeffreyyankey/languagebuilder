@@ -3,17 +3,16 @@
 		<button ion-button menuToggle>
 			<ion-icon name="menu"></ion-icon>
 		</button>
-		<ion-title>Russian to English</ion-title>
+		<ion-title>English to Russian Review</ion-title>
 	</ion-navbar>
 </ion-header>
 
 <ion-content>
-	<p padding>Review the Russian words below.</p>
-	<button ion-button block color="primary" (click)="showCheckbox()">Show Checkbox Alert</button>
 	<ion-list>
-		<ion-item *ngFor="let word of words | async" >
-			{{word.russian}}
-			<div item-right>{{word.english}}</div>
+		<ion-item *ngFor="let word of words | slice:0:questionLimit" >
+			{{word.russian}}<br />
+			<span class="description">unit: {{word.unit}}</span>
+			<div item-right>{{word.english}} <span *ngIf="word.gender">({{word.gender}})</span><span *ngIf="word.case" class="description"><br />case: {{word.case}}</span></div>
 		</ion-item>
 	</ion-list>
 </ion-content>

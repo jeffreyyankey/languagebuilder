@@ -10,6 +10,9 @@ import { GlobalVars }from '../../providers/global-vars';
   templateUrl: 'book-modal.html'
 })
 export class BookModalPage {
+	displayPage1:boolean;
+	displayPage2:boolean;
+	displayPage3:boolean;
 	units;
 	options = {source: 'book', unit: 'all', questions: 'all'};
 
@@ -25,9 +28,18 @@ export class BookModalPage {
 			.subscribe(data => {
 				this.units = data;
 		})
+
+		this.displayPage1 = true;
 	}
 
-	dismiss() {
+	changePage(param1, param2, param3) {
+		this.displayPage1 = param1;
+		this.displayPage2 = param2;
+		this.displayPage3 = param3;
+		// console.log(this.displayPage1, this.displayPage2, this.displayPage3)
+	}
+
+	submit() {
 		this.viewCtrl.dismiss(this.options);
 	}
 }

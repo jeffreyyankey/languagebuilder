@@ -6,50 +6,75 @@
 
 <ion-content padding>
 
-	<ion-list radio-group [(ngModel)]="options.source">
-		<ion-list-header>
-			Source
-		</ion-list-header>
-		<ion-item>
-			<ion-label>Basic Russian - Book One</ion-label>
-			<ion-radio checked="true" value="book"></ion-radio>
-		</ion-item>
-	</ion-list>
+	<div *ngIf="displayPage1">
+		<ion-list  radio-group [(ngModel)]="options.source">
+			<ion-list-header>
+				Source
+			</ion-list-header>
+			<ion-item>
+				<ion-label>Basic Russian - Book One</ion-label>
+				<ion-radio checked="true" value="book"></ion-radio>
+			</ion-item>
+		</ion-list>
 
-	<ion-list radio-group *ngIf="units" [(ngModel)]="options.unit">
-		<ion-list-header>
-			Unit
-		</ion-list-header>
-		<ion-item >
-			<ion-label>All ({{this.gv.getAllUnitLength()}} words)</ion-label>
-			<ion-radio checked="true" value="all"></ion-radio>
-		</ion-item>
-		<ion-item *ngFor="let unit of units">
-			<ion-label>{{unit.title + ' (' + this.gv.getUnitLength(unit.unit)}} words)</ion-label>
-			<ion-radio checked="false" value="{{unit.unit}}"></ion-radio>
-		</ion-item>
-	</ion-list>
+		<button ion-button block default (click)="changePage(false, true, false)">
+			<ion-label text-center>Next</ion-label>
+		</button>
+	</div>
 
-	<ion-list radio-group [(ngModel)]="options.questions">
-		<ion-list-header>
-			Number of Questions
-		</ion-list-header>
-		<ion-item >
-			<ion-label>All</ion-label>
-			<ion-radio checked="true" value="all"></ion-radio>
-		</ion-item>
-		<ion-item >
-			<ion-label>10</ion-label>
-			<ion-radio checked="false" value="10"></ion-radio>
-		</ion-item>
-		<ion-item >
-			<ion-label>20</ion-label>
-			<ion-radio checked="false" value="20"></ion-radio>
-		</ion-item>
-	</ion-list>
+	<div *ngIf="displayPage2 && units">
+		<ion-list radio-group  [(ngModel)]="options.unit">
+			<ion-list-header>
+				Unit
+			</ion-list-header>
+			<ion-item >
+				<ion-label>All ({{this.gv.getAllUnitLength()}} words)</ion-label>
+				<ion-radio checked="true" value="all"></ion-radio>
+			</ion-item>
+			<ion-item *ngFor="let unit of units">
+				<ion-label>{{unit.title + ' (' + this.gv.getUnitLength(unit.unit)}} words)</ion-label>
+				<ion-radio checked="false" value="{{unit.unit}}"></ion-radio>
+			</ion-item>
+		</ion-list>
 
-	<button ion-button block default (click)="dismiss()">
-		<ion-label text-center>Submit</ion-label>
-	</button>
+		<button ion-button block default (click)="changePage(true, false, false)">
+			<ion-label text-center>Back</ion-label>
+		</button>
+		<button ion-button block default (click)="changePage(false, false, true)">
+			<ion-label text-center>Next</ion-label>
+		</button>
+	</div>
+
+	<div *ngIf="displayPage3">
+		<ion-list  radio-group [(ngModel)]="options.questions">
+			<ion-list-header>
+				Number of Questions
+			</ion-list-header>
+			<ion-item >
+				<ion-label>All</ion-label>
+				<ion-radio checked="true" value="all"></ion-radio>
+			</ion-item>
+			<ion-item >
+				<ion-label>5</ion-label>
+				<ion-radio checked="false" value="5"></ion-radio>
+			</ion-item>
+			<ion-item >
+				<ion-label>10</ion-label>
+				<ion-radio checked="false" value="10"></ion-radio>
+			</ion-item>
+			<ion-item >
+				<ion-label>20</ion-label>
+				<ion-radio checked="false" value="20"></ion-radio>
+			</ion-item>
+		</ion-list>
+
+		<button ion-button block default (click)="changePage(false, true, false)">
+			<ion-label text-center>Back</ion-label>
+		</button>
+
+		<button ion-button block default (click)="submit()">
+			<ion-label text-center>Submit</ion-label>
+		</button>
+	</div>
 
 </ion-content>

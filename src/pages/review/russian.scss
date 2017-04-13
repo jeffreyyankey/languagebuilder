@@ -1,3 +1,11 @@
 page-russian {
-	
+	.description {
+		font-size: .75em;
+		color: #333;
+		font-style: italic;
+	}
+
+	[item-right] {
+		text-align: right;
+	}
 }

@@ -1,9 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { AngularFire, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2';
-import { AlertController } from 'ionic-angular';
-import { UnitService } from '../../providers/unit-service';
+import { Component } from '@angular/core';
+import { AngularFire } from 'angularfire2';
+import { ModalController } from 'ionic-angular';
+
 import { WordService } from '../../providers/word-service';
 import { Subject } from 'rxjs/Subject';
+
+import { GlobalVars }from '../../providers/global-vars';
+import { BookModalPage } from '../book-modal/book-modal';
 
 @Component({
 	selector: 'page-russian',
@@ -11,60 +14,43 @@ import { Subject } from 'rxjs/Subject';
 })
 
 export class EnglishRussianReviewPage {
-	rpCheckboxOpen: boolean;
-	words: FirebaseListObservable<any>;
 	unitSubject: Subject<any>;
-	units;
+
+	words;
+	questionLimit:number;
 
 	constructor(
 		private af: AngularFire,
-		private ac: AlertController,
-		private us: UnitService,
+		public gv: GlobalVars,
+		public mc: ModalController,
 		private ws: WordService
 	) {
-		us.getAll()
-		.subscribe(data => {
-			this.units = data;
-		})
-	}
-
-	showCheckbox() {
-		let alert = this.ac.create();
-		alert.setTitle( 'Which Unit(s)?' );
-
-		alert.addInput({
-			type: 'radio',
-			label: 'All',
-			value: 'all',
-			checked: true
-		});
-
-		for( let unit of this.units ) {
-			alert.addInput({
-				type: 'radio',
-				label: unit.title,
-				value: unit.unit,
-				checked: false
-			});
-		}
-
-		alert.addButton( 'Cancel' );
-		alert.addButton({
-			text: 'Okay',
-			handler: data => {
-				this.unitSubject = data;
-				this.rpCheckboxOpen = false;
-				if (data === 'all') {
-					this.words = this.ws.getAll();
-				}
-				else {
-					this.words = this.ws.getUnit(this.unitSubject);
-				}
+		let modal = this.mc.create( BookModalPage );
+		modal.present();
+		modal.onDidDismiss( data => {
+			// console.log(data);
+			if (data.unit === 'all') {
+				this.ws.getAll()
+				.subscribe( response => {
+					this.words = response;
+					if (this.words.length > Number(data.questions)) {
+						this.questionLimit = Number(data.questions);
+					} else {
+						this.questionLimit = this.words.length;
+					}
+				})
 			}
-		});
-
-		alert.present().then(() => {
-			this.rpCheckboxOpen = true;
-		});
+			else {
+				this.ws.getUnit( this.unitSubject )
+				.subscribe( response => {
+					this.words = response;
+					if (this.words.length > Number(data.questions)) {
+						this.questionLimit = Number(data.questions);
+					} else {
+						this.questionLimit = this.words.length;
+					}
+				})
+			}
+		})
 	}
 }

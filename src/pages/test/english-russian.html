@@ -27,7 +27,7 @@
 		<p text-center>English: <strong>{{words[currentWordNumber].english}} <span *ngIf="words[currentWordNumber].requireGender">({{words[currentWordNumber].gender}})</span></strong></p>
 		<p *ngIf="words[currentWordNumber].case" text-center>Case: <strong>{{words[currentWordNumber].case}}</strong></p>
 		<p text-center>Русский: <strong>{{words[currentWordNumber].russian}}</strong></p>
-		<p text-center>Your answer: {{words[currentWordNumber].answer}}</p>
+		<p text-center>Your answer: <strong>{{words[currentWordNumber].answer}}</strong></p>
 		<button ion-button block color="primary" (click)="nextWord()">
 			<ion-label text-center>Next</ion-label>
 		</button>
@@ -36,7 +36,7 @@
 	<div *ngIf="words && showAnswer === false && showFinal === true">
 		<p>Translation Complete!</p>
 		<ion-list>
-			<ion-item *ngFor="let word of words">
+			<ion-item *ngFor="let word of words | slice:0:questionLimit">
 				<p text-center>English: <strong>{{word.english}} <span *ngIf="words[currentWordNumber].requireGender">({{words[currentWordNumber].gender}})</span></strong></p>
 				<p *ngIf="word.case" text-center>Case: {{word.case}}</p>
 				<p text-center>Русский: <strong>{{word.russian}}</strong></p>
